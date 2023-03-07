@@ -16,6 +16,7 @@ namespace Licoreria_AccesosdeDatos
         SqlCommand comando = new SqlCommand();
         public DataTable MostrarCliente()
         {
+            //Mostrar Coneixón
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "MostrarCliente";
             comando.CommandType = CommandType.StoredProcedure;
