@@ -310,6 +310,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
+    <None Include="Resources\Portada2.png" />
+    <None Include="Resources\Regreso.png" />
     <None Include="Resources\Inicio2.png" />
     <None Include="Resources\Inicio.png" />
     <None Include="Resources\Principal.png" />

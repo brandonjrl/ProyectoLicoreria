@@ -223,6 +223,16 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Portada2 {
+            get {
+                object obj = ResourceManager.GetObject("Portada2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Principal {
             get {
                 object obj = ResourceManager.GetObject("Principal", resourceCulture);
@@ -246,6 +256,16 @@ namespace Licoreria_Presentacion.Properties {
         internal static System.Drawing.Bitmap regresar__1_ {
             get {
                 object obj = ResourceManager.GetObject("regresar (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Regreso {
+            get {
+                object obj = ResourceManager.GetObject("Regreso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
