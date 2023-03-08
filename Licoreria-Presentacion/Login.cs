@@ -24,7 +24,6 @@ namespace Licoreria_Presentacion
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            label2.ForeColor = Color.Yellow;
             cbxUsuario.DataSource = vendedor1.ObtenerVendedores();
             cbxUsuario.SelectedItem = -1;
             labelAviso.Visible = false;
@@ -40,14 +39,11 @@ namespace Licoreria_Presentacion
             {
                 if (cbxUsuario.Text != "")
                 {
-                    labelAviso.Visible = true;
-                    labelAviso.Text = "!Usuario Incorrecto¡ Ingrese Nuevamente.";
-                    //MessageBox.Show("Usuario Incorrecto Ingrese Nuevamente");
+                    MessageBox.Show("Usuario Incorrecto Ingrese Nuevamente");
                     
                 }
                 else if (cbxUsuario.Text == "")
                 {
-                    labelAviso.Visible = false;
                     cbxUsuario.Text = "Usuario por defecto";
                     p.lblUsuarioVendedor.Text = cbxUsuario.Text;
                     EVendedor vendordefecto = new EVendedor("User");
@@ -58,8 +54,7 @@ namespace Licoreria_Presentacion
             }
             else if (lista.devolver2(cbxUsuario.SelectedItem.ToString()) == true)
             {
-                labelAviso.Visible = false;
-                //MessageBox.Show("Usuario Exitoso");
+
                 p.lblUsuarioVendedor.Text = cbxUsuario.Text;
                 p.Show();
                 this.Hide();

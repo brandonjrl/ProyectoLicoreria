@@ -71,6 +71,7 @@
             // 
             // cbxUsuario
             // 
+            this.cbxUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxUsuario.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxUsuario.FormattingEnabled = true;
             this.cbxUsuario.Location = new System.Drawing.Point(454, 168);
