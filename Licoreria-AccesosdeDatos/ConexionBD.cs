@@ -13,7 +13,8 @@ namespace Licoreria_AccesosdeDatos
     {
         //revisar string de conexion 
         //
-        private SqlConnection Conexion = new SqlConnection(@"Server=tcp:proyecto2bim.database.windows.net,1433;Initial Catalog=LicoreriaBDD;Persist Security Info=False;User ID=BaseAzure;Password=proyecto-2bim;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"); 
+       
+        private SqlConnection Conexion = new SqlConnection(Licoreria_AccesosdeDatos.Properties.Resources.String1); 
         public SqlConnection AbrirConexion()
         {
             if (Conexion.State == ConnectionState.Closed)
