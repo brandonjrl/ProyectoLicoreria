@@ -279,7 +279,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
+           // this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
             this.ClientSize = new System.Drawing.Size(812, 518);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.gboxAgregar);

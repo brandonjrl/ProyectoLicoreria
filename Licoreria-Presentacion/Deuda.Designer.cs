@@ -276,7 +276,7 @@
             // 
             // pbPrenda
             // 
-            this.pbPrenda.Image = global::Licoreria_Presentacion.Properties.Resources._17536;
+            //this.pbPrenda.Image = global::Licoreria_Presentacion.Properties.Resources._17536;
             this.pbPrenda.Location = new System.Drawing.Point(791, 32);
             this.pbPrenda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbPrenda.Name = "pbPrenda";
@@ -312,7 +312,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
+            //this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
             this.ClientSize = new System.Drawing.Size(1061, 546);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnBuscar);

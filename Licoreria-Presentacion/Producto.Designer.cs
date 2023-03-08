@@ -310,7 +310,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
+            //this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
             this.ClientSize = new System.Drawing.Size(836, 554);
             this.Controls.Add(this.lblAviso);
             this.Controls.Add(this.btnProv);

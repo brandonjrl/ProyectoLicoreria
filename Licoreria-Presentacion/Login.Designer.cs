@@ -37,16 +37,18 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.Transparent;
-            this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnIngresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIngresar.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.btnIngresar.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.ForeColor = System.Drawing.Color.HotPink;
+            this.btnIngresar.ForeColor = System.Drawing.Color.DeepPink;
             this.btnIngresar.Image = ((System.Drawing.Image)(resources.GetObject("btnIngresar.Image")));
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(433, 248);
+            this.btnIngresar.Location = new System.Drawing.Point(454, 221);
             this.btnIngresar.Margin = new System.Windows.Forms.Padding(4);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(191, 54);
+            this.btnIngresar.Size = new System.Drawing.Size(165, 54);
             this.btnIngresar.TabIndex = 16;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -60,10 +62,10 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.PaleVioletRed;
-            this.label2.Location = new System.Drawing.Point(395, 131);
+            this.label2.Location = new System.Drawing.Point(449, 137);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 35);
+            this.label2.Size = new System.Drawing.Size(116, 27);
             this.label2.TabIndex = 14;
             this.label2.Text = "Usuario:";
             // 
@@ -71,10 +73,10 @@
             // 
             this.cbxUsuario.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxUsuario.FormattingEnabled = true;
-            this.cbxUsuario.Location = new System.Drawing.Point(402, 168);
+            this.cbxUsuario.Location = new System.Drawing.Point(454, 168);
             this.cbxUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.cbxUsuario.Name = "cbxUsuario";
-            this.cbxUsuario.Size = new System.Drawing.Size(248, 43);
+            this.cbxUsuario.Size = new System.Drawing.Size(196, 35);
             this.cbxUsuario.TabIndex = 18;
             // 
             // labelAviso
@@ -85,12 +87,12 @@
             this.labelAviso.ForeColor = System.Drawing.Color.Crimson;
             this.labelAviso.Location = new System.Drawing.Point(86, 146);
             this.labelAviso.Name = "labelAviso";
-            this.labelAviso.Size = new System.Drawing.Size(0, 28);
+            this.labelAviso.Size = new System.Drawing.Size(0, 23);
             this.labelAviso.TabIndex = 19;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 11F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Principal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

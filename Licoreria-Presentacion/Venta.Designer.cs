@@ -442,7 +442,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Licoreria_Presentacion.Properties.Resources.LOGO;
+           // this.pictureBox1.Image = global::Licoreria_Presentacion.Properties.Resources.LOGO;
             this.pictureBox1.Location = new System.Drawing.Point(936, -2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
@@ -794,7 +794,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
+           // this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
             this.ClientSize = new System.Drawing.Size(1067, 726);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.label5);
