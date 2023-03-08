@@ -12,6 +12,7 @@ namespace Licoreria_AccesosdeDatos
     public class ConexionBD
     {
         //revisar string de conexion 
+        //
         private SqlConnection Conexion = new SqlConnection(@"Server=tcp:proyecto2bim.database.windows.net,1433;Initial Catalog=LicoreriaBDD;Persist Security Info=False;User ID=BaseAzure;Password=proyecto-2bim;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"); 
         public SqlConnection AbrirConexion()
         {
