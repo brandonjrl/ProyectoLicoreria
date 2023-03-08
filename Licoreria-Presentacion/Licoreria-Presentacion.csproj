@@ -279,37 +279,16 @@
     <None Include="Resources\LOGO.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\#e2e37e.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\regresar.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\regresar %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Amarillo4.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\hacia-atras.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\#fdfd96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Amarillo2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logoborroso.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Amarillo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Amarillo5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Amarillo3.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logoborroso1.png" />
@@ -328,9 +307,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carga-de-archivos %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\17536.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
