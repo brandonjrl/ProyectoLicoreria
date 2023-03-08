@@ -26,7 +26,6 @@ namespace Licoreria_AccesosdeDatos
                 Conexion.Close();
             return Conexion;
         }
-        //holis
-        //comentario cualquiera
+
     }
 }
