@@ -334,6 +334,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
+    <None Include="Resources\Inicio2.png" />
+    <None Include="Resources\Inicio.png" />
+    <None Include="Resources\Principal.png" />
+    <None Include="Resources\General.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

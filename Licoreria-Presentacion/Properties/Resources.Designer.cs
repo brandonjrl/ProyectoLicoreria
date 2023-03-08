@@ -19,7 +19,7 @@ namespace Licoreria_Presentacion.Properties {
     // a través de una herramienta como ResGen o Visual Studio.
     // Para agregar o quitar un miembro, edite el archivo .ResX y, a continuación, vuelva a ejecutar ResGen
     // con la opción /str o recompile su proyecto de VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -83,46 +83,6 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _e2e37e {
-            get {
-                object obj = ResourceManager.GetObject("#e2e37e", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _e2e37e1 {
-            get {
-                object obj = ResourceManager.GetObject("#e2e37e1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _fdfd96 {
-            get {
-                object obj = ResourceManager.GetObject("#fdfd96", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _fdfd961 {
-            get {
-                object obj = ResourceManager.GetObject("#fdfd961", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap agregar_simbolo {
             get {
                 object obj = ResourceManager.GetObject("agregar-simbolo", resourceCulture);
@@ -136,76 +96,6 @@ namespace Licoreria_Presentacion.Properties {
         internal static System.Drawing.Bitmap agregar_simbolo1 {
             get {
                 object obj = ResourceManager.GetObject("agregar-simbolo1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo1 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo2 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo3 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo31 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo31", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo4 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo41 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo41", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Amarillo5 {
-            get {
-                object obj = ResourceManager.GetObject("Amarillo5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,6 +183,16 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap General {
+            get {
+                object obj = ResourceManager.GetObject("General", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hacia_atras {
             get {
                 object obj = ResourceManager.GetObject("hacia-atras", resourceCulture);
@@ -303,9 +203,9 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap LOGO {
+        internal static System.Drawing.Bitmap Inicio {
             get {
-                object obj = ResourceManager.GetObject("LOGO", resourceCulture);
+                object obj = ResourceManager.GetObject("Inicio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,19 +213,9 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logoborroso {
+        internal static System.Drawing.Bitmap Inicio2 {
             get {
-                object obj = ResourceManager.GetObject("logoborroso", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logoborroso1 {
-            get {
-                object obj = ResourceManager.GetObject("logoborroso1", resourceCulture);
+                object obj = ResourceManager.GetObject("Inicio2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +226,16 @@ namespace Licoreria_Presentacion.Properties {
         internal static System.Drawing.Bitmap Lorry_Green_icon_icons_com_54887 {
             get {
                 object obj = ResourceManager.GetObject("Lorry_Green_icon-icons.com_54887", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Principal {
+            get {
+                object obj = ResourceManager.GetObject("Principal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
