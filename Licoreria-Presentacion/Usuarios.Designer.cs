@@ -45,7 +45,7 @@
             // txtNombreUsuario
             // 
             this.txtNombreUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreUsuario.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.txtNombreUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtNombreUsuario.Location = new System.Drawing.Point(298, 58);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(148, 27);

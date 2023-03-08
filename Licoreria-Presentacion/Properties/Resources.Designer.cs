@@ -223,9 +223,39 @@ namespace Licoreria_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Portada_Documento_Corporativo_Elegante_Gris_Blanco {
+            get {
+                object obj = ResourceManager.GetObject("Portada Documento Corporativo Elegante Gris Blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Portada2 {
             get {
                 object obj = ResourceManager.GetObject("Portada2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Portada21 {
+            get {
+                object obj = ResourceManager.GetObject("Portada21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PortadaOscura {
+            get {
+                object obj = ResourceManager.GetObject("PortadaOscura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
