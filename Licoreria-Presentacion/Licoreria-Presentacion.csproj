@@ -319,16 +319,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
-    <None Include="Resources\Blupa.png" />
-    <None Include="Resources\Beditar.png" />
-    <None Include="Resources\Bguardar.png" />
-    <None Include="Resources\Beliminar.png" />
-    <None Include="Resources\Bingresar.png" />
-    <None Include="Resources\Busuario.png" />
-    <None Include="Resources\Bproducto.png" />
-    <None Include="Resources\Bventa.png" />
-    <None Include="Resources\Bproveedor.png" />
+    <None Include="Resources\Bperfil-del-usuario.png" />
     <None Include="Resources\Breporte.png" />
+    <None Include="Resources\Bproveedor.png" />
+    <None Include="Resources\Bventa.png" />
+    <None Include="Resources\Bproducto.png" />
+    <None Include="Resources\Busuarios.png" />
+    <None Include="Resources\Bingresar.png" />
+    <None Include="Resources\Beliminar.png" />
+    <None Include="Resources\Bguardar.png" />
+    <None Include="Resources\Beditar.png" />
+    <None Include="Resources\Blupa.png" />
+    <None Include="Resources\Banadir-al-carrito.png" />
+    <None Include="Resources\Busuario.png" />
     <None Include="Resources\Portada Documento Corporativo Elegante Gris Blanco.png" />
     <None Include="Resources\Portada21.png" />
     <None Include="Resources\Portada2.png" />
