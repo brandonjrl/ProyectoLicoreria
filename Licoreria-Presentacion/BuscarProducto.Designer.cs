@@ -42,7 +42,7 @@
             // 
             this.dtgProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgProducto.Location = new System.Drawing.Point(47, 97);
-            this.dtgProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgProducto.Margin = new System.Windows.Forms.Padding(4);
             this.dtgProducto.Name = "dtgProducto";
             this.dtgProducto.RowHeadersWidth = 51;
             this.dtgProducto.Size = new System.Drawing.Size(696, 224);
@@ -54,7 +54,7 @@
             this.txtProducto.BackColor = System.Drawing.Color.Moccasin;
             this.txtProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProducto.Location = new System.Drawing.Point(361, 50);
-            this.txtProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtProducto.Name = "txtProducto";
             this.txtProducto.Size = new System.Drawing.Size(372, 32);
             this.txtProducto.TabIndex = 56;
@@ -64,12 +64,12 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Maroon;
             this.label10.Location = new System.Drawing.Point(35, 55);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(302, 23);
+            this.label10.Size = new System.Drawing.Size(312, 23);
             this.label10.TabIndex = 57;
             this.label10.Text = "Ingrese nombre del producto:";
             // 
@@ -111,7 +111,7 @@
             this.Controls.Add(this.label10);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "BuscarProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
