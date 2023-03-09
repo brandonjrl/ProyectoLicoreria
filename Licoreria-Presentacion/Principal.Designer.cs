@@ -44,7 +44,7 @@
             // 
             this.btnPrincipalVenta.BackColor = System.Drawing.Color.Bisque;
             this.btnPrincipalVenta.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipalVenta.Image = global::Licoreria_Presentacion.Properties.Resources.shopping_bag_icon_143300;
+            this.btnPrincipalVenta.Image = global::Licoreria_Presentacion.Properties.Resources.Bventa;
             this.btnPrincipalVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrincipalVenta.Location = new System.Drawing.Point(44, 167);
             this.btnPrincipalVenta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -60,7 +60,7 @@
             // 
             this.BtnPrincipalProveedores.BackColor = System.Drawing.Color.Bisque;
             this.BtnPrincipalProveedores.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPrincipalProveedores.Image = global::Licoreria_Presentacion.Properties.Resources.Lorry_Green_icon_icons_com_54887;
+            this.BtnPrincipalProveedores.Image = global::Licoreria_Presentacion.Properties.Resources.Bproveedor;
             this.BtnPrincipalProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnPrincipalProveedores.Location = new System.Drawing.Point(301, 167);
             this.BtnPrincipalProveedores.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -76,7 +76,7 @@
             // 
             this.btnPrincipalProductos.BackColor = System.Drawing.Color.Bisque;
             this.btnPrincipalProductos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipalProductos.Image = global::Licoreria_Presentacion.Properties.Resources.ark_productbox_arc_6255;
+            this.btnPrincipalProductos.Image = global::Licoreria_Presentacion.Properties.Resources.Bproducto;
             this.btnPrincipalProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrincipalProductos.Location = new System.Drawing.Point(301, 109);
             this.btnPrincipalProductos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -93,7 +93,7 @@
             this.btnPrincipalUsuarios.BackColor = System.Drawing.Color.Bisque;
             this.btnPrincipalUsuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPrincipalUsuarios.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipalUsuarios.Image = global::Licoreria_Presentacion.Properties.Resources.community_users_12977;
+            this.btnPrincipalUsuarios.Image = global::Licoreria_Presentacion.Properties.Resources.Busuarios;
             this.btnPrincipalUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrincipalUsuarios.Location = new System.Drawing.Point(44, 109);
             this.btnPrincipalUsuarios.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -126,7 +126,7 @@
             this.label3.ForeColor = System.Drawing.Color.Chocolate;
             this.label3.Location = new System.Drawing.Point(15, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 21);
+            this.label3.Size = new System.Drawing.Size(163, 27);
             this.label3.TabIndex = 19;
             this.label3.Text = "Bienvenido: ";
             // 
@@ -138,7 +138,7 @@
             this.lblUsuarioVendedor.ForeColor = System.Drawing.Color.Chocolate;
             this.lblUsuarioVendedor.Location = new System.Drawing.Point(151, 75);
             this.lblUsuarioVendedor.Name = "lblUsuarioVendedor";
-            this.lblUsuarioVendedor.Size = new System.Drawing.Size(16, 21);
+            this.lblUsuarioVendedor.Size = new System.Drawing.Size(19, 27);
             this.lblUsuarioVendedor.TabIndex = 20;
             this.lblUsuarioVendedor.Text = ".";
             // 
@@ -146,7 +146,7 @@
             // 
             this.btn_Reportes.BackColor = System.Drawing.Color.Bisque;
             this.btn_Reportes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Reportes.Image = global::Licoreria_Presentacion.Properties.Resources.buscar__1_;
+            this.btn_Reportes.Image = global::Licoreria_Presentacion.Properties.Resources.Blupa;
             this.btn_Reportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Reportes.Location = new System.Drawing.Point(163, 227);
             this.btn_Reportes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -159,7 +159,7 @@
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Inicio;

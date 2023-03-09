@@ -60,9 +60,9 @@
             this.gboxBuscar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gboxBuscar.ForeColor = System.Drawing.Color.Maroon;
             this.gboxBuscar.Location = new System.Drawing.Point(44, 43);
-            this.gboxBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gboxBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.gboxBuscar.Name = "gboxBuscar";
-            this.gboxBuscar.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gboxBuscar.Padding = new System.Windows.Forms.Padding(4);
             this.gboxBuscar.Size = new System.Drawing.Size(715, 239);
             this.gboxBuscar.TabIndex = 1;
             this.gboxBuscar.TabStop = false;
@@ -73,7 +73,7 @@
             this.txtIngrese.BackColor = System.Drawing.Color.Moccasin;
             this.txtIngrese.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIngrese.Location = new System.Drawing.Point(100, 25);
-            this.txtIngrese.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIngrese.Margin = new System.Windows.Forms.Padding(4);
             this.txtIngrese.Name = "txtIngrese";
             this.txtIngrese.Size = new System.Drawing.Size(597, 26);
             this.txtIngrese.TabIndex = 2;
@@ -84,7 +84,7 @@
             this.dtgCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgCliente.Location = new System.Drawing.Point(16, 66);
-            this.dtgCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgCliente.Margin = new System.Windows.Forms.Padding(4);
             this.dtgCliente.Name = "dtgCliente";
             this.dtgCliente.RowHeadersWidth = 51;
             this.dtgCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -121,9 +121,9 @@
             this.gboxAgregar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gboxAgregar.ForeColor = System.Drawing.Color.Maroon;
             this.gboxAgregar.Location = new System.Drawing.Point(44, 289);
-            this.gboxAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gboxAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.gboxAgregar.Name = "gboxAgregar";
-            this.gboxAgregar.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gboxAgregar.Padding = new System.Windows.Forms.Padding(4);
             this.gboxAgregar.Size = new System.Drawing.Size(715, 206);
             this.gboxAgregar.TabIndex = 3;
             this.gboxAgregar.TabStop = false;
@@ -157,7 +157,7 @@
             this.txtDireccion.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtDireccion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.Location = new System.Drawing.Point(132, 121);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(360, 30);
             this.txtDireccion.TabIndex = 6;
@@ -167,7 +167,7 @@
             this.txtNombre.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(132, 78);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(360, 30);
             this.txtNombre.TabIndex = 5;
@@ -176,10 +176,10 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Moccasin;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Image = global::Licoreria_Presentacion.Properties.Resources._32officeicons_3_89720;
+            this.btnEliminar.Image = global::Licoreria_Presentacion.Properties.Resources.Beliminar;
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEliminar.Location = new System.Drawing.Point(533, 149);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(164, 50);
             this.btnEliminar.TabIndex = 10;
@@ -192,10 +192,10 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Moccasin;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Image = global::Licoreria_Presentacion.Properties.Resources.savedisk_floppydisk_guardar_1543;
+            this.btnGuardar.Image = global::Licoreria_Presentacion.Properties.Resources.Bguardar;
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardar.Location = new System.Drawing.Point(533, 91);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(164, 50);
             this.btnGuardar.TabIndex = 9;
@@ -211,7 +211,7 @@
             this.btnEditar.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditar.Location = new System.Drawing.Point(533, 33);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(164, 50);
             this.btnEditar.TabIndex = 8;
@@ -292,7 +292,7 @@
             this.Controls.Add(this.gboxAgregar);
             this.Controls.Add(this.gboxBuscar);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Cliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

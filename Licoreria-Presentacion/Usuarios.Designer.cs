@@ -46,9 +46,10 @@
             // 
             this.txtNombreUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtNombreUsuario.Location = new System.Drawing.Point(298, 58);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(397, 71);
+            this.txtNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(148, 27);
+            this.txtNombreUsuario.Size = new System.Drawing.Size(196, 32);
             this.txtNombreUsuario.TabIndex = 27;
             this.txtNombreUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreUsuario_KeyPress);
             // 
@@ -58,30 +59,33 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(326, 33);
+            this.label2.Location = new System.Drawing.Point(435, 41);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 18);
+            this.label2.Size = new System.Drawing.Size(85, 23);
             this.label2.TabIndex = 26;
             this.label2.Text = "Nombre";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(34, 33);
+            this.dataGridView1.Location = new System.Drawing.Point(45, 41);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            this.dataGridView1.Size = new System.Drawing.Size(245, 191);
+            this.dataGridView1.Size = new System.Drawing.Size(327, 235);
             this.dataGridView1.TabIndex = 25;
             // 
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Moccasin;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Image = global::Licoreria_Presentacion.Properties.Resources.savedisk_floppydisk_guardar_1543;
+            this.btnGuardar.Image = global::Licoreria_Presentacion.Properties.Resources.Bguardar;
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(298, 91);
+            this.btnGuardar.Location = new System.Drawing.Point(397, 112);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(147, 41);
+            this.btnGuardar.Size = new System.Drawing.Size(196, 50);
             this.btnGuardar.TabIndex = 57;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -94,9 +98,10 @@
             this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(298, 138);
+            this.btnEditar.Location = new System.Drawing.Point(397, 170);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(147, 41);
+            this.btnEditar.Size = new System.Drawing.Size(196, 50);
             this.btnEditar.TabIndex = 58;
             this.btnEditar.Text = "Editar";
             this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -107,11 +112,12 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Moccasin;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Image = global::Licoreria_Presentacion.Properties.Resources._32officeicons_3_89720;
+            this.btnEliminar.Image = global::Licoreria_Presentacion.Properties.Resources.Beliminar;
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(298, 185);
+            this.btnEliminar.Location = new System.Drawing.Point(397, 228);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(146, 41);
+            this.btnEliminar.Size = new System.Drawing.Size(195, 50);
             this.btnEliminar.TabIndex = 59;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -122,10 +128,10 @@
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.Transparent;
             this.btnRegresar.Image = global::Licoreria_Presentacion.Properties.Resources.Regreso;
-            this.btnRegresar.Location = new System.Drawing.Point(2, 0);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegresar.Location = new System.Drawing.Point(3, 0);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(32, 32);
+            this.btnRegresar.Size = new System.Drawing.Size(43, 39);
             this.btnRegresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnRegresar.TabIndex = 104;
             this.btnRegresar.TabStop = false;
@@ -134,11 +140,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Licoreria_Presentacion.Properties.Resources.vendedora;
-            this.pictureBox1.Location = new System.Drawing.Point(298, 29);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Image = global::Licoreria_Presentacion.Properties.Resources.Bperfil_del_usuario;
+            this.pictureBox1.Location = new System.Drawing.Point(397, 36);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 49);
             this.pictureBox1.TabIndex = 105;
             this.pictureBox1.TabStop = false;
             // 
@@ -146,20 +152,19 @@
             // 
             this.lblUsuarioActual.AutoSize = true;
             this.lblUsuarioActual.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsuarioActual.Location = new System.Drawing.Point(47, 11);
-            this.lblUsuarioActual.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsuarioActual.Location = new System.Drawing.Point(63, 14);
             this.lblUsuarioActual.Name = "lblUsuarioActual";
-            this.lblUsuarioActual.Size = new System.Drawing.Size(0, 13);
+            this.lblUsuarioActual.Size = new System.Drawing.Size(0, 17);
             this.lblUsuarioActual.TabIndex = 106;
             this.lblUsuarioActual.Visible = false;
             // 
             // Usuarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(470, 249);
+            this.ClientSize = new System.Drawing.Size(627, 306);
             this.Controls.Add(this.lblUsuarioActual);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnEliminar);
@@ -170,6 +175,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Usuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
