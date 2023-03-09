@@ -319,6 +319,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
+    <None Include="Resources\Iventa.ico" />
+    <None Include="Resources\Iinvestigacion.ico" />
+    <None Include="Resources\Iusuario.ico" />
+    <None Include="Resources\Ideuda.ico" />
+    <None Include="Resources\Ilogin.ico" />
+    <None Include="Resources\Ipagina-principal.ico" />
+    <None Include="Resources\Iproducto.ico" />
+    <None Include="Resources\Ireporte.ico" />
     <None Include="Resources\Bperfil-del-usuario.png" />
     <None Include="Resources\Breporte.png" />
     <None Include="Resources\Bproveedor.png" />
