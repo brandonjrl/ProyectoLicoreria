@@ -55,8 +55,8 @@ namespace Licoreria_Presentacion
                 r.lstProductos.Items.Add(Convert.ToString(row.Cells["Producto"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorU"].Value) + "\t" + Convert.ToString(row.Cells["Cantidad"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorT"].Value));
 
             }
-
-           /* //Guarda en la base de Datos Venta con ProductoVenta y Pago 
+            /*
+            //Guarda en la base de Datos Venta con ProductoVenta y Pago 
             if (optEfectivo.Checked == true)
             {
                 objetoPV.InsertarProducto_Venta(0, float.Parse(txtEfectivo.Text), txtObs.Text, txtObs.Text, float.Parse(txtTotal.Text), txtCedula.Text, idvendedor, int.Parse(txtTotal.Text), int.Parse(txtTotal.Text), float.Parse(txtPrecio.Text), int.Parse(txtID.Text));
