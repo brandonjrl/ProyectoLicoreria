@@ -320,7 +320,6 @@
   <ItemGroup>
     <Content Include="Facebook Post 940x788 px.ico" />
     <None Include="Resources\Portada Documento Corporativo Elegante Gris Blanco.png" />
-    <None Include="Resources\PortadaOscura.png" />
     <None Include="Resources\Portada21.png" />
     <None Include="Resources\Portada2.png" />
     <None Include="Resources\Regreso.png" />
@@ -341,8 +340,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Iconos\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
