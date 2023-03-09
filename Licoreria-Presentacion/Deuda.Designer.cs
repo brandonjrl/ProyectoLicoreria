@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Deuda));
             this.dtgDeuda = new System.Windows.Forms.DataGridView();
             this.lblCliente = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -58,7 +59,7 @@
             // 
             this.dtgDeuda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgDeuda.Location = new System.Drawing.Point(44, 286);
-            this.dtgDeuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.dtgDeuda.Name = "dtgDeuda";
             this.dtgDeuda.RowHeadersWidth = 51;
             this.dtgDeuda.Size = new System.Drawing.Size(964, 188);
@@ -78,10 +79,10 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Moccasin;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Image = global::Licoreria_Presentacion.Properties.Resources.Beliminar;
+            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEliminar.Location = new System.Drawing.Point(257, 481);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(164, 50);
             this.btnEliminar.TabIndex = 62;
@@ -94,10 +95,10 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Moccasin;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Image = global::Licoreria_Presentacion.Properties.Resources.Bguardar;
+            this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardar.Location = new System.Drawing.Point(668, 481);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(164, 50);
             this.btnGuardar.TabIndex = 63;
@@ -111,7 +112,7 @@
             this.txtPrenda.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtPrenda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrenda.Location = new System.Drawing.Point(523, 122);
-            this.txtPrenda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrenda.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrenda.Name = "txtPrenda";
             this.txtPrenda.Size = new System.Drawing.Size(213, 32);
             this.txtPrenda.TabIndex = 65;
@@ -160,7 +161,7 @@
             this.txtFecha.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtFecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFecha.Location = new System.Drawing.Point(523, 175);
-            this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(213, 32);
             this.txtFecha.TabIndex = 69;
@@ -183,7 +184,7 @@
             this.txtNombreCliente.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtNombreCliente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreCliente.Location = new System.Drawing.Point(164, 63);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.ReadOnly = true;
             this.txtNombreCliente.Size = new System.Drawing.Size(572, 32);
@@ -194,7 +195,7 @@
             this.txtCedula.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtCedula.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCedula.Location = new System.Drawing.Point(164, 121);
-            this.txtCedula.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCedula.Margin = new System.Windows.Forms.Padding(4);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.ReadOnly = true;
             this.txtCedula.Size = new System.Drawing.Size(217, 32);
@@ -244,7 +245,7 @@
             this.txtTotal.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.Location = new System.Drawing.Point(164, 240);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(217, 32);
             this.txtTotal.TabIndex = 78;
@@ -256,7 +257,7 @@
             this.btnEditar.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditar.Location = new System.Drawing.Point(464, 481);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(164, 50);
             this.btnEditar.TabIndex = 64;
@@ -272,7 +273,7 @@
             this.btnBuscar.Image = global::Licoreria_Presentacion.Properties.Resources.carga_de_archivos__2_;
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBuscar.Location = new System.Drawing.Point(811, 223);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(180, 53);
             this.btnBuscar.TabIndex = 99;
@@ -284,7 +285,7 @@
             // pbPrenda
             // 
             this.pbPrenda.Location = new System.Drawing.Point(791, 55);
-            this.pbPrenda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbPrenda.Margin = new System.Windows.Forms.Padding(4);
             this.pbPrenda.Name = "pbPrenda";
             this.pbPrenda.Size = new System.Drawing.Size(217, 160);
             this.pbPrenda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -304,7 +305,7 @@
             "Activo",
             "Inactivo"});
             this.cboEstado.Location = new System.Drawing.Point(164, 180);
-            this.cboEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboEstado.Margin = new System.Windows.Forms.Padding(4);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(217, 31);
             this.cboEstado.TabIndex = 100;
@@ -342,7 +343,8 @@
             this.Controls.Add(this.lblCliente);
             this.Controls.Add(this.dtgDeuda);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Deuda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

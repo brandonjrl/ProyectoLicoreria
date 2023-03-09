@@ -44,7 +44,7 @@
             // 
             this.btnPrincipalVenta.BackColor = System.Drawing.Color.Bisque;
             this.btnPrincipalVenta.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipalVenta.Image = global::Licoreria_Presentacion.Properties.Resources.Bventa;
+            this.btnPrincipalVenta.Image = ((System.Drawing.Image)(resources.GetObject("btnPrincipalVenta.Image")));
             this.btnPrincipalVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrincipalVenta.Location = new System.Drawing.Point(44, 167);
             this.btnPrincipalVenta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -60,7 +60,7 @@
             // 
             this.BtnPrincipalProveedores.BackColor = System.Drawing.Color.Bisque;
             this.BtnPrincipalProveedores.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPrincipalProveedores.Image = global::Licoreria_Presentacion.Properties.Resources.Bproveedor;
+            this.BtnPrincipalProveedores.Image = ((System.Drawing.Image)(resources.GetObject("BtnPrincipalProveedores.Image")));
             this.BtnPrincipalProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnPrincipalProveedores.Location = new System.Drawing.Point(301, 167);
             this.BtnPrincipalProveedores.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -76,7 +76,7 @@
             // 
             this.btnPrincipalProductos.BackColor = System.Drawing.Color.Bisque;
             this.btnPrincipalProductos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipalProductos.Image = global::Licoreria_Presentacion.Properties.Resources.Bproducto;
+            this.btnPrincipalProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnPrincipalProductos.Image")));
             this.btnPrincipalProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrincipalProductos.Location = new System.Drawing.Point(301, 109);
             this.btnPrincipalProductos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -146,7 +146,7 @@
             // 
             this.btn_Reportes.BackColor = System.Drawing.Color.Bisque;
             this.btn_Reportes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Reportes.Image = global::Licoreria_Presentacion.Properties.Resources.Blupa;
+            this.btn_Reportes.Image = ((System.Drawing.Image)(resources.GetObject("btn_Reportes.Image")));
             this.btn_Reportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Reportes.Location = new System.Drawing.Point(163, 227);
             this.btn_Reportes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);

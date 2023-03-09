@@ -43,7 +43,7 @@
             this.btnIngresar.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.btnIngresar.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.DeepPink;
-            this.btnIngresar.Image = global::Licoreria_Presentacion.Properties.Resources.Bingresar;
+            this.btnIngresar.Image = ((System.Drawing.Image)(resources.GetObject("btnIngresar.Image")));
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIngresar.Location = new System.Drawing.Point(356, 211);
             this.btnIngresar.Margin = new System.Windows.Forms.Padding(4);

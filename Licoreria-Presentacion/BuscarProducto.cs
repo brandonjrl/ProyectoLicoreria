@@ -24,6 +24,7 @@ namespace Licoreria_Presentacion
         private void BuscarProducto_Load(object sender, EventArgs e)
         {
             MostrarProductos();
+            
 
         }
 

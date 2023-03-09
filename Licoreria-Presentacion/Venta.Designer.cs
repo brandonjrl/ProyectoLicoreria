@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Venta));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtPago = new System.Windows.Forms.TextBox();
             this.txtVuelto = new System.Windows.Forms.TextBox();
@@ -104,9 +105,9 @@
             this.groupBox4.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Maroon;
             this.groupBox4.Location = new System.Drawing.Point(553, 501);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(247, 97);
             this.groupBox4.TabIndex = 66;
             this.groupBox4.TabStop = false;
@@ -117,7 +118,7 @@
             this.txtPago.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtPago.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPago.Location = new System.Drawing.Point(99, 23);
-            this.txtPago.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPago.Margin = new System.Windows.Forms.Padding(4);
             this.txtPago.Name = "txtPago";
             this.txtPago.ReadOnly = true;
             this.txtPago.Size = new System.Drawing.Size(113, 26);
@@ -128,7 +129,7 @@
             this.txtVuelto.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtVuelto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVuelto.Location = new System.Drawing.Point(99, 58);
-            this.txtVuelto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtVuelto.Margin = new System.Windows.Forms.Padding(4);
             this.txtVuelto.Name = "txtVuelto";
             this.txtVuelto.ReadOnly = true;
             this.txtVuelto.Size = new System.Drawing.Size(113, 26);
@@ -171,9 +172,9 @@
             this.groupBox2.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Maroon;
             this.groupBox2.Location = new System.Drawing.Point(12, 65);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(1071, 82);
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
@@ -192,9 +193,9 @@
             // 
             this.btnBuscarCliente.BackColor = System.Drawing.Color.Moccasin;
             this.btnBuscarCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnBuscarCliente.Image = global::Licoreria_Presentacion.Properties.Resources.Blupa;
+            this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
             this.btnBuscarCliente.Location = new System.Drawing.Point(997, 18);
-            this.btnBuscarCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscarCliente.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(65, 57);
             this.btnBuscarCliente.TabIndex = 46;
@@ -206,7 +207,7 @@
             this.txtNombreCliente.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtNombreCliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreCliente.Location = new System.Drawing.Point(499, 38);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.ReadOnly = true;
             this.txtNombreCliente.Size = new System.Drawing.Size(435, 26);
@@ -219,7 +220,7 @@
             this.txtCedula.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtCedula.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCedula.Location = new System.Drawing.Point(92, 38);
-            this.txtCedula.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCedula.Margin = new System.Windows.Forms.Padding(4);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.ReadOnly = true;
             this.txtCedula.Size = new System.Drawing.Size(248, 26);
@@ -266,7 +267,7 @@
             this.btnRecibo.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnRecibo.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecibo.Location = new System.Drawing.Point(581, 662);
-            this.btnRecibo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRecibo.Margin = new System.Windows.Forms.Padding(4);
             this.btnRecibo.Name = "btnRecibo";
             this.btnRecibo.Size = new System.Drawing.Size(185, 49);
             this.btnRecibo.TabIndex = 59;
@@ -299,9 +300,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Maroon;
             this.groupBox1.Location = new System.Drawing.Point(13, 498);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(460, 100);
             this.groupBox1.TabIndex = 57;
             this.groupBox1.TabStop = false;
@@ -346,7 +347,7 @@
             this.optCombinado.AutoSize = true;
             this.optCombinado.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optCombinado.Location = new System.Drawing.Point(317, 26);
-            this.optCombinado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.optCombinado.Margin = new System.Windows.Forms.Padding(4);
             this.optCombinado.Name = "optCombinado";
             this.optCombinado.Size = new System.Drawing.Size(127, 24);
             this.optCombinado.TabIndex = 2;
@@ -360,7 +361,7 @@
             this.optTransferencia.AutoSize = true;
             this.optTransferencia.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optTransferencia.Location = new System.Drawing.Point(157, 26);
-            this.optTransferencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.optTransferencia.Margin = new System.Windows.Forms.Padding(4);
             this.optTransferencia.Name = "optTransferencia";
             this.optTransferencia.Size = new System.Drawing.Size(150, 24);
             this.optTransferencia.TabIndex = 1;
@@ -374,7 +375,7 @@
             this.optEfectivo.AutoSize = true;
             this.optEfectivo.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optEfectivo.Location = new System.Drawing.Point(16, 26);
-            this.optEfectivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.optEfectivo.Margin = new System.Windows.Forms.Padding(4);
             this.optEfectivo.Name = "optEfectivo";
             this.optEfectivo.Size = new System.Drawing.Size(102, 24);
             this.optEfectivo.TabIndex = 0;
@@ -388,7 +389,7 @@
             this.txtObs.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtObs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtObs.Location = new System.Drawing.Point(227, 617);
-            this.txtObs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtObs.Margin = new System.Windows.Forms.Padding(4);
             this.txtObs.Name = "txtObs";
             this.txtObs.Size = new System.Drawing.Size(823, 26);
             this.txtObs.TabIndex = 56;
@@ -438,7 +439,7 @@
             this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAgregar.Image = global::Licoreria_Presentacion.Properties.Resources.Banadir_al_carrito;
             this.btnAgregar.Location = new System.Drawing.Point(1009, 158);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(65, 57);
             this.btnAgregar.TabIndex = 63;
@@ -449,9 +450,9 @@
             // 
             this.btnQuitar.BackColor = System.Drawing.Color.Moccasin;
             this.btnQuitar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnQuitar.Image = global::Licoreria_Presentacion.Properties.Resources.Beliminar;
+            this.btnQuitar.Image = ((System.Drawing.Image)(resources.GetObject("btnQuitar.Image")));
             this.btnQuitar.Location = new System.Drawing.Point(1009, 230);
-            this.btnQuitar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQuitar.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(65, 57);
             this.btnQuitar.TabIndex = 64;
@@ -463,7 +464,7 @@
             this.btnDeudar.BackColor = System.Drawing.Color.PapayaWhip;
             this.btnDeudar.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeudar.Location = new System.Drawing.Point(317, 662);
-            this.btnDeudar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeudar.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeudar.Name = "btnDeudar";
             this.btnDeudar.Size = new System.Drawing.Size(185, 49);
             this.btnDeudar.TabIndex = 69;
@@ -500,9 +501,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Maroon;
             this.groupBox3.Location = new System.Drawing.Point(12, 158);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(989, 129);
             this.groupBox3.TabIndex = 103;
             this.groupBox3.TabStop = false;
@@ -513,7 +514,7 @@
             this.txtProducto.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtProducto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProducto.Location = new System.Drawing.Point(536, 42);
-            this.txtProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtProducto.Name = "txtProducto";
             this.txtProducto.ReadOnly = true;
             this.txtProducto.Size = new System.Drawing.Size(307, 26);
@@ -550,7 +551,7 @@
             this.nUDCant.BackColor = System.Drawing.Color.PapayaWhip;
             this.nUDCant.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nUDCant.Location = new System.Drawing.Point(536, 86);
-            this.nUDCant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nUDCant.Margin = new System.Windows.Forms.Padding(4);
             this.nUDCant.Name = "nUDCant";
             this.nUDCant.Size = new System.Drawing.Size(120, 26);
             this.nUDCant.TabIndex = 47;
@@ -564,9 +565,9 @@
             // 
             this.btnBuscarProducto.BackColor = System.Drawing.Color.Moccasin;
             this.btnBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnBuscarProducto.Image = global::Licoreria_Presentacion.Properties.Resources.Blupa;
+            this.btnBuscarProducto.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarProducto.Image")));
             this.btnBuscarProducto.Location = new System.Drawing.Point(891, 38);
-            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
             this.btnBuscarProducto.Size = new System.Drawing.Size(65, 57);
             this.btnBuscarProducto.TabIndex = 46;
@@ -578,7 +579,7 @@
             this.txtPrecio.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtPrecio.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecio.Location = new System.Drawing.Point(108, 85);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.ReadOnly = true;
             this.txtPrecio.Size = new System.Drawing.Size(248, 26);
@@ -590,7 +591,7 @@
             this.txtID.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtID.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtID.Location = new System.Drawing.Point(108, 38);
-            this.txtID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(248, 26);
@@ -625,7 +626,7 @@
             this.txtPrecioCompra.BackColor = System.Drawing.Color.SeaShell;
             this.txtPrecioCompra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecioCompra.Location = new System.Drawing.Point(108, 85);
-            this.txtPrecioCompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrecioCompra.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecioCompra.Name = "txtPrecioCompra";
             this.txtPrecioCompra.ReadOnly = true;
             this.txtPrecioCompra.Size = new System.Drawing.Size(248, 26);
@@ -644,7 +645,7 @@
             this.ValorT,
             this.TotalC});
             this.dtgDetalle.Location = new System.Drawing.Point(12, 308);
-            this.dtgDetalle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgDetalle.Margin = new System.Windows.Forms.Padding(4);
             this.dtgDetalle.Name = "dtgDetalle";
             this.dtgDetalle.ReadOnly = true;
             this.dtgDetalle.RowHeadersWidth = 51;
@@ -741,7 +742,7 @@
             this.txtTotalCompa.Enabled = false;
             this.txtTotalCompa.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalCompa.Location = new System.Drawing.Point(936, 497);
-            this.txtTotalCompa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalCompa.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalCompa.Name = "txtTotalCompa";
             this.txtTotalCompa.Size = new System.Drawing.Size(113, 26);
             this.txtTotalCompa.TabIndex = 106;
@@ -784,7 +785,7 @@
             this.txtTotal.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtTotal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.Location = new System.Drawing.Point(936, 497);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(113, 26);
             this.txtTotal.TabIndex = 60;
@@ -819,7 +820,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTotalCompa);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Venta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

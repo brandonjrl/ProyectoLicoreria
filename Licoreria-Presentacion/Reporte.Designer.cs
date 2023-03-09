@@ -29,6 +29,7 @@ namespace Licoreria_Presentacion
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte));
             this.SuspendLayout();
             // 
             // Reporte
@@ -40,6 +41,7 @@ namespace Licoreria_Presentacion
             this.ClientSize = new System.Drawing.Size(900, 422);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporte";
             this.Text = "Reporte";
             this.ResumeLayout(false);
