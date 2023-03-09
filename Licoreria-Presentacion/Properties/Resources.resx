@@ -202,34 +202,4 @@
   <data name="Portada Documento Corporativo Elegante Gris Blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Portada Documento Corporativo Elegante Gris Blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Beditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Beditar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Beliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Beliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bguardar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bguardar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bingresar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bingresar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Blupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Blupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bproducto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bproducto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bproveedor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bproveedor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Breporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Breporte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Busuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Busuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bventa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bventa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
