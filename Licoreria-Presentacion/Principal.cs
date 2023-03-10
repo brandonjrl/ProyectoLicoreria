@@ -53,7 +53,22 @@ namespace Licoreria_Presentacion
 
         private void Principal_Load(object sender, EventArgs e)
         {
-
+            if(lblUsuarioVendedor.Text == "Laura")
+            {
+                btnPrincipalVenta.Enabled = true;
+                btnPrincipalUsuarios.Enabled = true;
+                btnPrincipalProductos.Enabled = true;
+                btn_Reportes.Enabled = true;
+                BtnPrincipalProveedores.Enabled = true;
+            }
+            else
+            {
+                btnPrincipalVenta.Enabled = true;
+                btnPrincipalUsuarios.Enabled = false;
+                btnPrincipalProductos.Enabled = false;
+                btn_Reportes.Enabled = true;
+                BtnPrincipalProveedores.Enabled = false;
+            }
         }
 
         //Regresar
