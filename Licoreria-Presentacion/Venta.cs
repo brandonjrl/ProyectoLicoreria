@@ -134,9 +134,9 @@ namespace Licoreria_Presentacion
             {
                 MessageBox.Show("El cliente actual ya tiene una deuda");
             }
-            else
+            else*/
             r.Show();
-            this.Hide();*/
+            this.Hide();
         }
         //
         /*
