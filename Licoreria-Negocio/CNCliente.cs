@@ -17,6 +17,7 @@ namespace Licoreria_Negocio
             tabla = objetoCD.MostrarCliente();
             return tabla;
         }
+        // XDDDD
         public void InsertarC(string ced, string nombreCliente, string telefono, string direccion)
         {
             objetoCD.InsertarCliente(ced, nombreCliente, telefono, direccion);
