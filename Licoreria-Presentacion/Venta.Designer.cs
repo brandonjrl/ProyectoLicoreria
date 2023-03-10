@@ -755,7 +755,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada_Documento_Corporativo_Elegante_Gris_Blanco;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(827, 590);
+            this.ClientSize = new System.Drawing.Size(827, 628);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblFecha);
