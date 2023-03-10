@@ -146,7 +146,7 @@ namespace Licoreria_Presentacion
             }
             else*/
             r.Show();
-            this.Hide();
+            //this.Hide();
         }
         //
         /*
