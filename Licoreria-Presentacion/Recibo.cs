@@ -20,7 +20,7 @@ namespace Licoreria_Presentacion
 
         private void Recibo_Load(object sender, EventArgs e)
         {
-
+            //esto se debe cambiar con cristal reports
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)

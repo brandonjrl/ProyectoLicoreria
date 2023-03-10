@@ -12,7 +12,7 @@ namespace Licoreria_AccesosdeDatos
     public class ConexionBD
     {
         //revisar string de conexion 
-        //
+        //no me permite coenctar
        
         private SqlConnection Conexion = new SqlConnection(Licoreria_AccesosdeDatos.Properties.Resources.String1); 
         public SqlConnection AbrirConexion()
@@ -26,6 +26,7 @@ namespace Licoreria_AccesosdeDatos
             if (Conexion.State == ConnectionState.Open)
                 Conexion.Close();
             return Conexion;
+            //comprobacion de registro
         }
 
     }

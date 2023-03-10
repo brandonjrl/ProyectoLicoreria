@@ -339,7 +339,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox btnRegresar;
         public System.Windows.Forms.Label lblPago;
         public System.Windows.Forms.Label lblNombre;
         public System.Windows.Forms.Label lblCedula;
@@ -348,5 +347,6 @@
         public System.Windows.Forms.Label lblNombreVendedor;
         public System.Windows.Forms.Label lblObs;
         public System.Windows.Forms.ListBox lstProductos;
+        private System.Windows.Forms.PictureBox btnRegresar;
     }
 }
