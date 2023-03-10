@@ -24,12 +24,14 @@ namespace Licoreria_Negocio
             tabla = objetoCD.MostrarDeudaCliente(ced);
             return tabla;
         }
-        //public DataTable EstadoDeuda(string ced)
-        //{
-        //    DataTable tabla = new DataTable();
-        //    tabla = objetoCD.EstadoDeuda(ced);
-        //    return tabla;
-        //}
+        //
+        /*
+        public DataTable EstadoDeuda(string ced)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.EstadoDeuda(ced);
+            return tabla;
+        }*/
 
         public void InsertarD(string prenda, DateTime fecha, float total, string estado, byte[] foto, int idC)
         {

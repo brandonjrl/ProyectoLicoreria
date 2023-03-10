@@ -55,20 +55,6 @@ namespace Licoreria_Presentacion
                 r.lstProductos.Items.Add(Convert.ToString(row.Cells["Producto"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorU"].Value) + "\t" + Convert.ToString(row.Cells["Cantidad"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorT"].Value));
 
             }
-            /*
-            //Guarda en la base de Datos Venta con ProductoVenta y Pago 
-            if (optEfectivo.Checked == true)
-            {
-                objetoPV.InsertarProducto_Venta(0, float.Parse(txtEfectivo.Text), txtObs.Text, txtObs.Text, float.Parse(txtTotal.Text), txtCedula.Text, idvendedor, int.Parse(txtTotal.Text), int.Parse(txtTotal.Text), float.Parse(txtPrecio.Text), int.Parse(txtID.Text));
-            }
-            else if (optTransferencia.Checked == true)
-            {
-                objetoPV.InsertarProducto_Venta(float.Parse(txtTransferencia.Text), 0, txtObs.Text, txtObs.Text, float.Parse(txtTotal.Text), txtCedula.Text, idvendedor, int.Parse(txtTotal.Text), int.Parse(txtTotal.Text), float.Parse(txtPrecio.Text), int.Parse(txtID.Text));
-            }
-            else if (optCombinado.Checked == true)
-            {
-                objetoPV.InsertarProducto_Venta(float.Parse(txtTransferencia.Text), float.Parse(txtEfectivo.Text), txtObs.Text, txtObs.Text, float.Parse(txtTotal.Text), txtCedula.Text, idvendedor, int.Parse(txtTotal.Text), int.Parse(txtTotal.Text), float.Parse(txtPrecio.Text), int.Parse(txtID.Text));
-            }*/
 
             if (VerificarDatosNulos() == true)
             {
@@ -138,24 +124,28 @@ namespace Licoreria_Presentacion
             optTransferencia.Checked = false;
             optCombinado.Checked = false;
 
-            //CNDeuda objeto = new CNDeuda();
-            //MessageBox.Show(Convert.ToString(objeto.EstadoDeuda(txtCedula.Text)));
-            //if (EstadoDeuda() == "Activo" || EstadoDeuda() == "activo" || objeto.EstadoDeuda(txtCedula.Text).ToString() == "Activo")
-            //{
-            //    MessageBox.Show("El cliente actual ya tiene una deuda");
-            //}
-            //else
+            //
+            /*
+            CNDeuda objeto = new CNDeuda();
+            MessageBox.Show(Convert.ToString(objeto.EstadoDeuda(txtCedula.Text)));
+            if (EstadoDeuda() == "Activo" || EstadoDeuda() == "activo" || objeto.EstadoDeuda(txtCedula.Text).ToString() == "Activo")
+            {
+                MessageBox.Show("El cliente actual ya tiene una deuda");
+            }
+            else
             r.Show();
-            //this.Hide();
+            this.Hide();*/
         }
-        //private string EstadoDeuda()
-        //{
-        //    string estado;
-        //    CNDeuda objeto = new CNDeuda();
-        //    estado = Convert.ToString( objeto.EstadoDeuda(txtCedula.Text));
-        //    //MessageBox.Show(estado);
-        //    return estado;
-        //}
+        //
+        /*
+        private string EstadoDeuda()
+        {
+            string estado;
+            CNDeuda objeto = new CNDeuda();
+            estado = Convert.ToString( objeto.EstadoDeuda(txtCedula.Text));
+            MessageBox.Show(estado);
+            return estado;
+        }*/
 
         private void txtNombreCliente_TextChanged(object sender, EventArgs e)
         {
@@ -469,6 +459,11 @@ namespace Licoreria_Presentacion
         private void horaFecha_Tick(object sender, EventArgs e)
         {
             lblHora.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 

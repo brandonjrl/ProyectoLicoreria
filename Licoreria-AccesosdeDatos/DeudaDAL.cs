@@ -51,18 +51,20 @@ namespace Licoreria_AccesosdeDatos
             return tabla;
 
         }
-        //public DataTable EstadoDeuda(string cedula)
-        //{
-        //    comando.Connection = conexion.AbrirConexion();
-        //    comando.CommandText = "EstadoDeuda";
-        //    comando.CommandType = CommandType.StoredProcedure;
-        //    comando.Parameters.AddWithValue("@cedula", cedula);
-        //    leer = comando.ExecuteReader();
-        //    tabla.Load(leer);
-        //    conexion.CerrarConexion();
-        //    return tabla;
+        //
+        /*
+        public DataTable EstadoDeuda(string cedula)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "EstadoDeuda";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@cedula", cedula);
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+           return tabla;
 
-        //}
+        }*/
         public void InsertarDeuda(string prenda, DateTime fecha, float total,string estado, byte[] foto, int idC)
         {
             comando.Connection = conexion.AbrirConexion();
