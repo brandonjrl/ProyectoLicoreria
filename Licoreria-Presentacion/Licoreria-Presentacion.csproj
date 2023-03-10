@@ -138,11 +138,23 @@
     <Compile Include="Deuda.Designer.cs">
       <DependentUpon>Deuda.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeudorAlaFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeudorAlaFecha.Designer.cs">
+      <DependentUpon>DeudorAlaFecha.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumeroDeExistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumeroDeExistencias.Designer.cs">
+      <DependentUpon>NumeroDeExistencias.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -155,6 +167,12 @@
     </Compile>
     <Compile Include="Producto.Designer.cs">
       <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosMasConsumidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosMasConsumidos.Designer.cs">
+      <DependentUpon>ProductosMasConsumidos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -187,6 +205,12 @@
     </Compile>
     <Compile Include="Venta.Designer.cs">
       <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentasPorDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasPorDia.Designer.cs">
+      <DependentUpon>VentasPorDia.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="BuscarProducto.resx">
       <DependentUpon>BuscarProducto.cs</DependentUpon>
