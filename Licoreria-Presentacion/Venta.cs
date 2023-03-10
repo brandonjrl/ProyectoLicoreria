@@ -388,6 +388,7 @@ namespace Licoreria_Presentacion
 
         #endregion
 
+        #region Mensajes
         private void txtCedula_KeyPress(object sender, KeyPressEventArgs e)
         {
             MessageBox.Show("Por favor seleccione un cliente desde el buscador.","Aviso");
@@ -417,6 +418,7 @@ namespace Licoreria_Presentacion
         {
             MessageBox.Show("Por favor seleccione un producto desde el buscador.", "Aviso");
         }
+        #endregion
 
         private void chbFiar_CheckedChanged(object sender, EventArgs e)
         {
