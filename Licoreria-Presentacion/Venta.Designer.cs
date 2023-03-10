@@ -371,9 +371,9 @@
             // 
             this.txtObs.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtObs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtObs.Location = new System.Drawing.Point(170, 501);
+            this.txtObs.Location = new System.Drawing.Point(223, 501);
             this.txtObs.Name = "txtObs";
-            this.txtObs.Size = new System.Drawing.Size(618, 22);
+            this.txtObs.Size = new System.Drawing.Size(565, 22);
             this.txtObs.TabIndex = 56;
             // 
             // label6
@@ -381,8 +381,8 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(7, 504);
+            this.label6.ForeColor = System.Drawing.Color.NavajoWhite;
+            this.label6.Location = new System.Drawing.Point(79, 504);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(145, 14);
             this.label6.TabIndex = 55;
