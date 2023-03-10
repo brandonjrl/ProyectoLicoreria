@@ -26,6 +26,8 @@ namespace Licoreria_Presentacion
             InitializeComponent();  
             lblFecha.Text = hoy.ToShortDateString();
         }
+
+        //metodo para recibo 
         private void btnRecibo_Click(object sender, EventArgs e)
         {
             EListaVendedor lista = new EListaVendedor();

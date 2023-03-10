@@ -152,7 +152,7 @@
             // txtTotal
             // 
             this.txtTotal.Location = new System.Drawing.Point(489, 518);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(171, 22);
@@ -200,7 +200,7 @@
             this.lstProductos.FormattingEnabled = true;
             this.lstProductos.ItemHeight = 21;
             this.lstProductos.Location = new System.Drawing.Point(51, 262);
-            this.lstProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstProductos.Margin = new System.Windows.Forms.Padding(4);
             this.lstProductos.Name = "lstProductos";
             this.lstProductos.Size = new System.Drawing.Size(609, 214);
             this.lstProductos.TabIndex = 47;
@@ -261,13 +261,12 @@
             this.label1.Location = new System.Drawing.Point(243, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 44);
+            this.label1.Size = new System.Drawing.Size(146, 44);
             this.label1.TabIndex = 42;
             this.label1.Text = "Recibo";
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::Licoreria_Presentacion.Properties.Resources.LOGO;
             this.pictureBox1.Location = new System.Drawing.Point(564, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
@@ -292,7 +291,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources._fdfd96;
             this.ClientSize = new System.Drawing.Size(692, 663);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox1);
@@ -314,8 +312,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(710, 710);
+            this.MinimumSize = new System.Drawing.Size(710, 710);
             this.Name = "Recibo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Recibo";

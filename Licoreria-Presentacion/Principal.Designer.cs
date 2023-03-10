@@ -126,7 +126,7 @@
             this.label3.ForeColor = System.Drawing.Color.NavajoWhite;
             this.label3.Location = new System.Drawing.Point(15, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 21);
+            this.label3.Size = new System.Drawing.Size(163, 27);
             this.label3.TabIndex = 19;
             this.label3.Text = "Bienvenido: ";
             // 
@@ -138,7 +138,7 @@
             this.lblUsuarioVendedor.ForeColor = System.Drawing.Color.NavajoWhite;
             this.lblUsuarioVendedor.Location = new System.Drawing.Point(151, 75);
             this.lblUsuarioVendedor.Name = "lblUsuarioVendedor";
-            this.lblUsuarioVendedor.Size = new System.Drawing.Size(16, 21);
+            this.lblUsuarioVendedor.Size = new System.Drawing.Size(19, 27);
             this.lblUsuarioVendedor.TabIndex = 20;
             this.lblUsuarioVendedor.Text = ".";
             // 
@@ -159,7 +159,7 @@
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Inicio;
@@ -178,6 +178,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(571, 389);
+            this.MinimumSize = new System.Drawing.Size(571, 389);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";

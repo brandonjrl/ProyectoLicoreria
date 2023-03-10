@@ -65,7 +65,7 @@
             this.label2.Location = new System.Drawing.Point(351, 137);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 27);
+            this.label2.Size = new System.Drawing.Size(145, 35);
             this.label2.TabIndex = 14;
             this.label2.Text = "Usuario:";
             // 
@@ -77,7 +77,7 @@
             this.cbxUsuario.Location = new System.Drawing.Point(356, 168);
             this.cbxUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.cbxUsuario.Name = "cbxUsuario";
-            this.cbxUsuario.Size = new System.Drawing.Size(196, 35);
+            this.cbxUsuario.Size = new System.Drawing.Size(196, 43);
             this.cbxUsuario.TabIndex = 18;
             // 
             // labelAviso
@@ -88,12 +88,12 @@
             this.labelAviso.ForeColor = System.Drawing.Color.Crimson;
             this.labelAviso.Location = new System.Drawing.Point(86, 146);
             this.labelAviso.Name = "labelAviso";
-            this.labelAviso.Size = new System.Drawing.Size(0, 23);
+            this.labelAviso.Size = new System.Drawing.Size(0, 28);
             this.labelAviso.TabIndex = 19;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 11F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))));
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Principal;
@@ -109,6 +109,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(625, 401);
+            this.MinimumSize = new System.Drawing.Size(625, 401);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
