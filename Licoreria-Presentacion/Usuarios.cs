@@ -81,9 +81,16 @@ namespace Licoreria_Presentacion
         {
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                Editar = true;
-                txtNombreUsuario.Text = dataGridView1.CurrentRow.Cells["Nombre Vendedor"].Value.ToString();
-                idVendedor = dataGridView1.CurrentRow.Cells["ID"].Value.ToString();
+                if (lblUsuarioActual.Text == "Laura")
+                {
+                    MessageBox.Show("No se puede editar a LAURA");
+                }
+                else
+                {
+                    Editar = true;
+                    txtNombreUsuario.Text = dataGridView1.CurrentRow.Cells["Nombre Vendedor"].Value.ToString();
+                    idVendedor = dataGridView1.CurrentRow.Cells["ID"].Value.ToString();
+                }
             }
             else
                 MessageBox.Show("Seleccione una fila por favor","Aviso");
