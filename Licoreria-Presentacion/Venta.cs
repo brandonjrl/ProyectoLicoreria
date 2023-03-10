@@ -73,6 +73,9 @@ namespace Licoreria_Presentacion
         {
             Cliente c = new Cliente(this);
             c.ShowDialog();
+            groupBox3.Enabled = true;
+            btnAgregar.Enabled = true;
+            btnQuitar.Enabled = true;
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -107,12 +110,19 @@ namespace Licoreria_Presentacion
 
             objetoCN.InsertarPV(Int32.Parse(nUDCant.Value.ToString()), float.Parse(txtPrecio.Text), Int32.Parse(txtID.Text));
 
+            groupBox1.Enabled = true;
+            groupBox4.Enabled = true;
         }
 
         private void Venta_Load(object sender, EventArgs e)
         {
             //Borrar una vez calculado el total
             txtTotal.Text = "000,00";
+            groupBox3.Enabled = false;
+            groupBox1.Enabled = false;
+            groupBox4.Enabled = false;
+            btnAgregar.Enabled = false;
+            btnQuitar.Enabled = false;
         }
 
         private void btnDeudar_Click(object sender, EventArgs e)
