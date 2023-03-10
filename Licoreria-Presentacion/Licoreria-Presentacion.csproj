@@ -221,14 +221,23 @@
     <EmbeddedResource Include="Deuda.resx">
       <DependentUpon>Deuda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeudorAlaFecha.resx">
+      <DependentUpon>DeudorAlaFecha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumeroDeExistencias.resx">
+      <DependentUpon>NumeroDeExistencias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Producto.resx">
       <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosMasConsumidos.resx">
+      <DependentUpon>ProductosMasConsumidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -254,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Venta.resx">
       <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasPorDia.resx">
+      <DependentUpon>VentasPorDia.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Licoreria-Presentacion_TemporaryKey.pfx" />
     <None Include="packages.config" />
