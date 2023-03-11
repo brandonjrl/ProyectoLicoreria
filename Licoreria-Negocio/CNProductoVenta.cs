@@ -33,5 +33,13 @@ namespace Licoreria_Negocio
             tabla = objetoCD.ProductosMasVendidos();
             return tabla;
         }
+
+        //Funcion ventas por dia llamando al procedure
+        public DataTable VentasPorDia(DateTime fecha)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.VentasXDia(fecha);
+            return tabla;
+        }
     }
 }
