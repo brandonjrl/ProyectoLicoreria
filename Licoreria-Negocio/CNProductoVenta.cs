@@ -41,5 +41,13 @@ namespace Licoreria_Negocio
             tabla = objetoCD.VentasXDia(fecha);
             return tabla;
         }
+
+        //Funcion Ganancias por dia
+        public DataTable GanaciasPorDia(DateTime fecha)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.GanaciasXDia(fecha);
+            return tabla;
+        }
     }
 }
