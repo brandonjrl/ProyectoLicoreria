@@ -45,5 +45,10 @@ namespace Licoreria_Negocio
         {
             objetoCD.EliminarDeuda(id);
         }
+        //LLamo al procedure Deudores a la fecha
+        public void DeudoresFecha(string estado)
+        {
+            objetoCD.DeudoresALaFecha(estado);
+        }
     }
 }
