@@ -61,5 +61,17 @@ namespace Licoreria_AccesosdeDatos
         //    comando.Parameters.Clear();
         //    conexion.CerrarConexion();
         //}
+
+        //Agrego procedure PRODUCTOS MAS VENDIDOS 
+        public DataTable ProductosMasVendidos()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "ProductosMasVendidos";
+            comando.CommandType = CommandType.StoredProcedure;
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
     }
 }
