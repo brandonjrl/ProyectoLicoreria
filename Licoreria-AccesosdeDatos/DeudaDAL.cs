@@ -102,5 +102,16 @@ namespace Licoreria_AccesosdeDatos
             comando.Parameters.Clear();
             conexion.CerrarConexion();
         }
+        //Agrago nuevo procedimineto DEUDORES A LA FECHA 11/03.2023
+        public void DeudoresALaFecha(string estado)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "DeudoresALaFecha";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@estado", estado);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+            conexion.CerrarConexion();
+        }
     }
 }
