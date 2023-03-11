@@ -25,5 +25,13 @@ namespace Licoreria_Negocio
         {
             objetoCD.EliminarProductoVenta(Convert.ToInt32(id));
         }
+
+        //LLamo procedure producto mas vendido
+        public DataTable MasVendidos()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.ProductosMasVendidos();
+            return tabla;
+        }
     }
 }
