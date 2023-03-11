@@ -73,5 +73,18 @@ namespace Licoreria_AccesosdeDatos
             conexion.CerrarConexion();
             return tabla;
         }
+
+        //Agrago Procedure Ventas por dia
+        public DataTable VentasXDia(DateTime fecha)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "VentasPorDia";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@fecha", fecha);
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
     }
 }
