@@ -132,6 +132,18 @@
     <Compile Include="Cliente.Designer.cs">
       <DependentUpon>Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Deuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +179,12 @@
     </Compile>
     <Compile Include="Producto.Designer.cs">
       <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoMasConsumido.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductoMasConsumido.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ProductosMasConsumidos.cs">
       <SubType>Form</SubType>
@@ -218,6 +236,14 @@
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Deuda.resx">
       <DependentUpon>Deuda.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +261,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Producto.resx">
       <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductoMasConsumido.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductoMasConsumido.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductosMasConsumidos.resx">
       <DependentUpon>ProductosMasConsumidos.cs</DependentUpon>

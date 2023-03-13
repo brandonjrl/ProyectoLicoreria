@@ -66,6 +66,7 @@ namespace Licoreria_Presentacion
             this.btnProductos.Text = "Productos mas Consumidos";
             this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnProductos.UseVisualStyleBackColor = false;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
             // btnVentas
             // 

@@ -16,5 +16,12 @@ namespace Licoreria_Presentacion
         {
             InitializeComponent();
         }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            ProductosMasConsumidos PMC = new ProductosMasConsumidos();
+            PMC.Show();
+            this.Hide();
+        }
     }
 }

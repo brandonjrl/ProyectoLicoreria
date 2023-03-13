@@ -30,6 +30,7 @@ namespace Licoreria_Presentacion
         private void InitializeComponent()
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.CrystalReport21 = new Licoreria_Presentacion.CrystalReport2();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
@@ -42,6 +43,7 @@ namespace Licoreria_Presentacion
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
+            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
             // ProductosMasConsumidos
             // 
@@ -58,5 +60,6 @@ namespace Licoreria_Presentacion
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private CrystalReport2 CrystalReport21;
     }
 }

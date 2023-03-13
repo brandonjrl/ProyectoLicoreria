@@ -85,5 +85,12 @@ namespace Licoreria_Presentacion
             else if (res == DialogResult.Cancel){ }
             
         }
+
+        private void btn_Reportes_Click(object sender, EventArgs e)
+        {
+            Reporte rp = new Reporte();
+            rp.Show();
+            this.Hide();
+        }
     }
 }
