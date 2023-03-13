@@ -90,7 +90,7 @@ namespace Licoreria_Presentacion
         {
             Reporte r = new Reporte();
             r.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }
