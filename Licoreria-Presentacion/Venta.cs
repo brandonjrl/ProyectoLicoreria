@@ -63,7 +63,7 @@ namespace Licoreria_Presentacion
             {
                 r.ShowDialog();
             }
-            else if (chbFiar.Checked == true && txtCedula.Text != "" && txtNombreCliente.Text != "")
+            else if (rbFiar.Checked == true && txtCedula.Text != "" && txtNombreCliente.Text != "")
             {
                 r.ShowDialog();
             }
@@ -137,29 +137,8 @@ namespace Licoreria_Presentacion
             optTransferencia.Checked = false;
             optCombinado.Checked = false;
 
-            //
-            /*
-            CNDeuda objeto = new CNDeuda();
-            MessageBox.Show(Convert.ToString(objeto.EstadoDeuda(txtCedula.Text)));
-            if (EstadoDeuda() == "Activo" || EstadoDeuda() == "activo" || objeto.EstadoDeuda(txtCedula.Text).ToString() == "Activo")
-            {
-                MessageBox.Show("El cliente actual ya tiene una deuda");
-            }
-            else*/
-            //r.Show();
             r.ShowDialog();
-            //this.Hide();
         }
-        //
-        /*
-        private string EstadoDeuda()
-        {
-            string estado;
-            CNDeuda objeto = new CNDeuda();
-            estado = Convert.ToString( objeto.EstadoDeuda(txtCedula.Text));
-            MessageBox.Show(estado);
-            return estado;
-        }*/
 
         private void txtNombreCliente_TextChanged(object sender, EventArgs e)
         {
@@ -172,28 +151,51 @@ namespace Licoreria_Presentacion
 
         }
 
+        Func<double> valorProvider = ()=>0;
+
+        //rb Efectivo TODO
         private void optEfectivo_CheckedChanged(object sender, EventArgs e)
         {
-            FormaDePago();
-            Pago2();
-            Vuelto();
-            chbFiar.Checked = false;
+            valorProvider = ()=> {
+                double value = 0;
+                double.TryParse(txtEfectivo.Text,out value);
+                return value;
+            };
+            txtEfectivo.Enabled = true;
+            txtTransferencia.Text = "";
+            txtTransferencia.Enabled = false;
+            btnDeudar.Enabled = false;
         }
 
+        //Rb TRansferencia TODO
         private void optTransferencia_CheckedChanged(object sender, EventArgs e)
         {
-            FormaDePago();
-            Pago1();
-            Vuelto();
-            chbFiar.Checked = false;
+            valorProvider = ()=> {
+                double value = 0;
+                double.TryParse(txtTransferencia.Text,out value);
+                return value;
+            };
+            txtEfectivo.Text = "";
+            txtTransferencia.Enabled = true;
+            txtEfectivo.Text = "";
+            txtEfectivo.Enabled = false;
+            btnDeudar.Enabled = false;
         }
-
+        //rb Combinado TODO
         private void optCombinado_CheckedChanged(object sender, EventArgs e)
         {
-            FormaDePago();
-            Pago3();
-            Vuelto();
-            chbFiar.Checked = false;
+            valorProvider = ()=> {
+                double valueTransferencia = 0;
+                double valueEfectivo = 0;
+                double.TryParse(txtTransferencia.Text,out valueTransferencia);
+                double.TryParse(txtEfectivo.Text,out valueEfectivo);
+                return valueTransferencia+valueEfectivo;
+            };
+            txtEfectivo.Text = "";
+            txtTransferencia.Text = "";
+            txtEfectivo.Enabled = true;
+            txtTransferencia.Enabled = true;
+            btnDeudar.Enabled = false;
         }
         private void btnBuscarProducto_Click(object sender, EventArgs e)
         {
@@ -328,7 +330,7 @@ namespace Licoreria_Presentacion
             {
                 forma = "Transferencia";
             }
-            else if (chbFiar.Checked == true)
+            else if (rbFiar.Checked == true)
             {
                 forma = "El cliente fio";
             }
@@ -434,16 +436,11 @@ namespace Licoreria_Presentacion
         }
         #endregion
 
+        //Check Fiar
+        
         private void chbFiar_CheckedChanged(object sender, EventArgs e)
         {
-            if (chbFiar.Checked == true)
-            {
-                optEfectivo.Checked = false;
-                optTransferencia.Checked = false;
-                optCombinado.Checked = false;
-                chbFiar.Checked = true;
-            }
-            else { }
+         
         }
 
         private void txtTotalVenta_Leave(object sender, EventArgs e)
@@ -495,6 +492,55 @@ namespace Licoreria_Presentacion
         private void txtID_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtEfectivo_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void txtTransferencia_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void txtEfectivo_TextChanged(object sender, EventArgs e)
+        {
+            updatePagoInfo();
+        }
+
+        private void txtTransferencia_TextChanged(object sender, EventArgs e)
+        {
+            updatePagoInfo();
+        }
+
+        private void updatePagoInfo()
+        {
+            double pago = valorProvider.Invoke();
+            double costo = double.Parse(txtTotal.Text);
+            double vuelto = pago - costo;
+
+            txtPago.Text = pago.ToString();
+            txtVuelto.Text = vuelto.ToString();
+
+            if(vuelto<0){
+                btnRecibo.Enabled = false;
+                btnRecibo.Enabled = false;
+                lbMensaje.Text = "Falta Dinero, No se puede completar el pago";
+            }else{
+                btnRecibo.Enabled = true;
+                lbMensaje.Text = "";
+            }
+        }
+
+        private void rbFiar_CheckedChanged(object sender, EventArgs e)
+        {
+            valorProvider = ()=> 0;
+            txtEfectivo.Text = "";
+            txtTransferencia.Text = "";
+            txtEfectivo.Enabled = false;
+            txtTransferencia.Enabled = false;
+            btnDeudar.Enabled = true;
         }
     }
 

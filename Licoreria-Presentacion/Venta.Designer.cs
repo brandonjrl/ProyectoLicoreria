@@ -46,7 +46,6 @@
             this.btnRecibo = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chbFiar = new System.Windows.Forms.CheckBox();
             this.txtTransferencia = new System.Windows.Forms.MaskedTextBox();
             this.txtEfectivo = new System.Windows.Forms.MaskedTextBox();
             this.optCombinado = new System.Windows.Forms.RadioButton();
@@ -86,6 +85,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.horaFecha = new System.Windows.Forms.Timer(this.components);
             this.txtTotal = new System.Windows.Forms.TextBox();
+            this.lbMensaje = new System.Windows.Forms.Label();
+            this.rbFiar = new System.Windows.Forms.RadioButton();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -104,7 +105,7 @@
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.groupBox4.Location = new System.Drawing.Point(415, 407);
+            this.groupBox4.Location = new System.Drawing.Point(390, 407);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(185, 79);
             this.groupBox4.TabIndex = 66;
@@ -246,7 +247,7 @@
             // 
             this.txtDireccionCliente.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccionCliente.Location = new System.Drawing.Point(69, 31);
-            this.txtDireccionCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDireccionCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtDireccionCliente.Name = "txtDireccionCliente";
             this.txtDireccionCliente.Size = new System.Drawing.Size(187, 20);
             this.txtDireccionCliente.TabIndex = 103;
@@ -279,7 +280,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.chbFiar);
+            this.groupBox1.Controls.Add(this.rbFiar);
             this.groupBox1.Controls.Add(this.txtTransferencia);
             this.groupBox1.Controls.Add(this.txtEfectivo);
             this.groupBox1.Controls.Add(this.optCombinado);
@@ -295,39 +296,33 @@
             this.groupBox1.Text = "Forma de Pago";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // chbFiar
-            // 
-            this.chbFiar.AutoSize = true;
-            this.chbFiar.Location = new System.Drawing.Point(238, 51);
-            this.chbFiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.chbFiar.Name = "chbFiar";
-            this.chbFiar.Size = new System.Drawing.Size(55, 19);
-            this.chbFiar.TabIndex = 105;
-            this.chbFiar.Text = "Fiar";
-            this.chbFiar.UseVisualStyleBackColor = true;
-            this.chbFiar.CheckedChanged += new System.EventHandler(this.chbFiar_CheckedChanged);
-            // 
             // txtTransferencia
             // 
             this.txtTransferencia.BackColor = System.Drawing.Color.PapayaWhip;
+            this.txtTransferencia.Enabled = false;
             this.txtTransferencia.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.txtTransferencia.Location = new System.Drawing.Point(118, 47);
-            this.txtTransferencia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTransferencia.Margin = new System.Windows.Forms.Padding(2);
             this.txtTransferencia.Mask = "000.00";
             this.txtTransferencia.Name = "txtTransferencia";
             this.txtTransferencia.Size = new System.Drawing.Size(98, 22);
             this.txtTransferencia.TabIndex = 104;
+            this.txtTransferencia.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtTransferencia_MaskInputRejected);
+            this.txtTransferencia.TextChanged += new System.EventHandler(this.txtTransferencia_TextChanged);
             // 
             // txtEfectivo
             // 
             this.txtEfectivo.BackColor = System.Drawing.Color.PapayaWhip;
+            this.txtEfectivo.Enabled = false;
             this.txtEfectivo.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.txtEfectivo.Location = new System.Drawing.Point(12, 47);
-            this.txtEfectivo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEfectivo.Margin = new System.Windows.Forms.Padding(2);
             this.txtEfectivo.Mask = "000.00";
             this.txtEfectivo.Name = "txtEfectivo";
             this.txtEfectivo.Size = new System.Drawing.Size(91, 22);
             this.txtEfectivo.TabIndex = 103;
+            this.txtEfectivo.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtEfectivo_MaskInputRejected);
+            this.txtEfectivo.TextChanged += new System.EventHandler(this.txtEfectivo_TextChanged);
             // 
             // optCombinado
             // 
@@ -454,7 +449,7 @@
             this.btnRegresar.BackColor = System.Drawing.Color.Transparent;
             this.btnRegresar.Image = global::Licoreria_Presentacion.Properties.Resources.Regreso;
             this.btnRegresar.Location = new System.Drawing.Point(2, 1);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(32, 32);
             this.btnRegresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -753,6 +748,31 @@
             this.txtTotal.TabIndex = 60;
             this.txtTotal.Leave += new System.EventHandler(this.txtTotalVenta_Leave);
             // 
+            // lbMensaje
+            // 
+            this.lbMensaje.AutoSize = true;
+            this.lbMensaje.BackColor = System.Drawing.Color.Transparent;
+            this.lbMensaje.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMensaje.ForeColor = System.Drawing.Color.NavajoWhite;
+            this.lbMensaje.Location = new System.Drawing.Point(579, 472);
+            this.lbMensaje.Name = "lbMensaje";
+            this.lbMensaje.Size = new System.Drawing.Size(11, 14);
+            this.lbMensaje.TabIndex = 110;
+            this.lbMensaje.Text = ".";
+            // 
+            // rbFiar
+            // 
+            this.rbFiar.AutoSize = true;
+            this.rbFiar.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbFiar.Location = new System.Drawing.Point(238, 49);
+            this.rbFiar.Name = "rbFiar";
+            this.rbFiar.Size = new System.Drawing.Size(54, 19);
+            this.rbFiar.TabIndex = 105;
+            this.rbFiar.TabStop = true;
+            this.rbFiar.Text = "Fiar";
+            this.rbFiar.UseVisualStyleBackColor = true;
+            this.rbFiar.CheckedChanged += new System.EventHandler(this.rbFiar_CheckedChanged);
+            // 
             // Venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -760,6 +780,7 @@
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada_Documento_Corporativo_Elegante_Gris_Blanco;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(829, 630);
+            this.Controls.Add(this.lbMensaje);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblFecha);
@@ -850,7 +871,6 @@
         private System.Windows.Forms.DataGridView dtgDetalle;
         public System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label label4;
-        public System.Windows.Forms.CheckBox chbFiar;
         public System.Windows.Forms.TextBox txtPrecioCompra;
         public System.Windows.Forms.TextBox txtTotalCompa;
         public System.Windows.Forms.Label lblHora;
@@ -864,5 +884,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ValorC;
         private System.Windows.Forms.DataGridViewTextBoxColumn ValorT;
         private System.Windows.Forms.DataGridViewTextBoxColumn TotalC;
+        private System.Windows.Forms.Label lbMensaje;
+        public System.Windows.Forms.RadioButton rbFiar;
     }
 }
