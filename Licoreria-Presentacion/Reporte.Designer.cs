@@ -36,6 +36,7 @@ namespace Licoreria_Presentacion
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnExistencias = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.PictureBox();
+            this.lb_usuarioActual = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegresar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,6 +113,15 @@ namespace Licoreria_Presentacion
             this.btnRegresar.TabStop = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // lb_usuarioActual
+            // 
+            this.lb_usuarioActual.AutoSize = true;
+            this.lb_usuarioActual.Location = new System.Drawing.Point(41, 44);
+            this.lb_usuarioActual.Name = "lb_usuarioActual";
+            this.lb_usuarioActual.Size = new System.Drawing.Size(43, 13);
+            this.lb_usuarioActual.TabIndex = 64;
+            this.lb_usuarioActual.Text = "label1";
+            // 
             // Reporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 11F);
@@ -119,6 +129,7 @@ namespace Licoreria_Presentacion
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada_Documento_Corporativo_Elegante_Gris_Blanco;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(699, 274);
+            this.Controls.Add(this.lb_usuarioActual);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnExistencias);
             this.Controls.Add(this.btnVentas);
@@ -131,6 +142,7 @@ namespace Licoreria_Presentacion
             this.Text = "Reporte";
             ((System.ComponentModel.ISupportInitialize)(this.btnRegresar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -141,5 +153,6 @@ namespace Licoreria_Presentacion
         private System.Windows.Forms.Button btnVentas;
         private System.Windows.Forms.Button btnExistencias;
         private System.Windows.Forms.PictureBox btnRegresar;
+        public System.Windows.Forms.Label lb_usuarioActual;
     }
 }

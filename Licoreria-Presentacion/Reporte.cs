@@ -20,6 +20,7 @@ namespace Licoreria_Presentacion
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             Principal p = new Principal();
+            p.lblUsuarioVendedor.Text = lb_usuarioActual.Text;
             p.Show();
             this.Close();
         }
