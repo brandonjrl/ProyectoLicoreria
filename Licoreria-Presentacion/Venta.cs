@@ -41,7 +41,7 @@ namespace Licoreria_Presentacion
             r.lblPago.Text = FormaPago();
             r.lblNombreVendedor.Text = lbnombreUsuario.Text;
             r.lblObs.Text = txtObs.Text;
-            r.lstProductos.Items.Add("Producto\tPrecio\tCantidad\tTotal");
+            r.lstProductos.Items.Add("Producto\t\tPrecio\t\tCantidad\t\tTotal");
 
             if (lbnombreUsuario.Text == "Usuario por defecto")
             {
@@ -54,7 +54,7 @@ namespace Licoreria_Presentacion
 
             foreach (DataGridViewRow row in dtgDetalle.Rows)
             {
-                r.lstProductos.Items.Add(Convert.ToString(row.Cells["Producto"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorU"].Value) + "\t" + Convert.ToString(row.Cells["Cantidad"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorT"].Value));
+                r.lstProductos.Items.Add(Convert.ToString(row.Cells["Producto"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorU"].Value) + "\t\t" + Convert.ToString(row.Cells["Cantidad"].Value) + "\t\t" + Convert.ToString(row.Cells["ValorT"].Value));
 
             }
 
