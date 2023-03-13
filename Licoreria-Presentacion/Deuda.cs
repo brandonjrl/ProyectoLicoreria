@@ -31,6 +31,7 @@ namespace Licoreria_Presentacion
         
         private void Deuda_Load(object sender, EventArgs e)
         {
+
             if (txtNombreCliente.Text == "")
             {
                 MostrarDeuda();
@@ -168,12 +169,34 @@ namespace Licoreria_Presentacion
                 txtPrenda.Text = dtgDeuda.CurrentRow.Cells["Prenda"].Value.ToString();
                 txtFecha.Text = dtgDeuda.CurrentRow.Cells["Fecha"].Value.ToString();
                 idD = dtgDeuda.CurrentRow.Cells["ID"].Value.ToString();
-                txtTotal.Text = dtgDeuda.CurrentRow.Cells["Deuda"].Value.ToString();
 
+                decimal aux = Convert.ToDecimal(dtgDeuda.CurrentRow.Cells["Deuda"].Value.ToString());
+                txtTotal.Text = (decimal.Round(aux, 2)).ToString();
             }
 
             
 
+        }
+
+        private void btnDeudaTotal_Click(object sender, EventArgs e)
+        {
+            decimal deudaT = 0;
+            if (dtgDeuda.SelectedRows.Count > 0)
+            {
+                for (int i = 0; i < dtgDeuda.RowCount - 1; i++)
+                {
+                    if (dtgDeuda.Rows[i].Cells["Nombre Cliente"].Value.ToString().Equals(txtNombreCliente.Text.ToString()))
+                    {
+                        deudaT += Convert.ToDecimal(dtgDeuda.Rows[i].Cells["Deuda"].Value.ToString());
+                    }
+                }
+                deudaT = decimal.Round(deudaT, 2);
+                MessageBox.Show("Su cliente debe: $"+deudaT.ToString(), "Deuda:");
+            }
+            else
+            {
+                MessageBox.Show("Elija una fila que contenga su cliente", "Por favor:");
+            }
         }
     }
 }

@@ -556,6 +556,8 @@ namespace Licoreria_Presentacion
             txtPago.Enabled = false;
             txtVuelto.Enabled = false;
             btnDeudar.Enabled = true;
+            txtPago.Clear();
+            txtVuelto.Clear();
         }
 
         private void btnDeudores_Click(object sender, EventArgs e)

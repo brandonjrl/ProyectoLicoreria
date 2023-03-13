@@ -50,6 +50,7 @@
             this.ofdExaminar = new System.Windows.Forms.OpenFileDialog();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
+            this.btnDeudaTotal = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDeuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPrenda)).BeginInit();
@@ -80,7 +81,7 @@
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(193, 399);
+            this.btnEliminar.Location = new System.Drawing.Point(110, 391);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(123, 41);
             this.btnEliminar.TabIndex = 62;
@@ -95,7 +96,7 @@
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(501, 399);
+            this.btnGuardar.Location = new System.Drawing.Point(418, 391);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(123, 41);
             this.btnGuardar.TabIndex = 63;
@@ -220,7 +221,7 @@
             this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(348, 399);
+            this.btnEditar.Location = new System.Drawing.Point(265, 391);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(123, 41);
             this.btnEditar.TabIndex = 64;
@@ -296,6 +297,21 @@
             this.txtCedula.Size = new System.Drawing.Size(164, 27);
             this.txtCedula.TabIndex = 101;
             // 
+            // btnDeudaTotal
+            // 
+            this.btnDeudaTotal.BackColor = System.Drawing.Color.Moccasin;
+            this.btnDeudaTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeudaTotal.Image = global::Licoreria_Presentacion.Properties.Resources.Breporte;
+            this.btnDeudaTotal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeudaTotal.Location = new System.Drawing.Point(570, 391);
+            this.btnDeudaTotal.Name = "btnDeudaTotal";
+            this.btnDeudaTotal.Size = new System.Drawing.Size(148, 41);
+            this.btnDeudaTotal.TabIndex = 103;
+            this.btnDeudaTotal.Text = "Deuda total";
+            this.btnDeudaTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDeudaTotal.UseVisualStyleBackColor = false;
+            this.btnDeudaTotal.Click += new System.EventHandler(this.btnDeudaTotal_Click);
+            // 
             // Deuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,6 +319,7 @@
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(796, 475);
+            this.Controls.Add(this.btnDeudaTotal);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.cboEstado);
@@ -361,5 +378,6 @@
         private System.Windows.Forms.OpenFileDialog ofdExaminar;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox txtCedula;
+        private System.Windows.Forms.Button btnDeudaTotal;
     }
 }

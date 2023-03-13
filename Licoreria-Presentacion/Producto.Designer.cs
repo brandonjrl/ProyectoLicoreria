@@ -64,12 +64,13 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(657, 192);
             this.dataGridView1.TabIndex = 56;
+
             // 
             // chbBuscar
             // 
             this.chbBuscar.AutoSize = true;
             this.chbBuscar.Location = new System.Drawing.Point(466, 260);
-            this.chbBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chbBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.chbBuscar.Name = "chbBuscar";
             this.chbBuscar.Size = new System.Drawing.Size(15, 14);
             this.chbBuscar.TabIndex = 95;
@@ -81,7 +82,7 @@
             this.txtPrecioVenta.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtPrecioVenta.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtPrecioVenta.Location = new System.Drawing.Point(215, 397);
-            this.txtPrecioVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecioVenta.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecioVenta.Mask = "999.99";
             this.txtPrecioVenta.Name = "txtPrecioVenta";
             this.txtPrecioVenta.Size = new System.Drawing.Size(222, 27);
@@ -92,7 +93,7 @@
             this.txtPrecioCompra.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtPrecioCompra.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtPrecioCompra.Location = new System.Drawing.Point(215, 361);
-            this.txtPrecioCompra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecioCompra.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecioCompra.Mask = "000.00";
             this.txtPrecioCompra.Name = "txtPrecioCompra";
             this.txtPrecioCompra.Size = new System.Drawing.Size(222, 27);
@@ -103,7 +104,7 @@
             this.txtStock.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtStock.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtStock.Location = new System.Drawing.Point(215, 288);
-            this.txtStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStock.Margin = new System.Windows.Forms.Padding(2);
             this.txtStock.Mask = "999";
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(222, 27);
@@ -232,7 +233,7 @@
             this.btnRegresar.BackColor = System.Drawing.Color.Transparent;
             this.btnRegresar.Image = global::Licoreria_Presentacion.Properties.Resources.Regreso;
             this.btnRegresar.Location = new System.Drawing.Point(1, 0);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(32, 32);
             this.btnRegresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
