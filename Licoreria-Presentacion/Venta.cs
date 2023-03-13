@@ -124,6 +124,7 @@ namespace Licoreria_Presentacion
             btnAgregar.Enabled = false;
             btnQuitar.Enabled = false;
             btnDeudar.Enabled = false;
+            btnDeudores.Enabled = false;
         }
 
         private void btnDeudar_Click(object sender, EventArgs e)
@@ -136,6 +137,7 @@ namespace Licoreria_Presentacion
             optEfectivo.Checked = false;
             optTransferencia.Checked = false;
             optCombinado.Checked = false;
+
 
             r.ShowDialog();
         }
@@ -548,7 +550,18 @@ namespace Licoreria_Presentacion
         private void btnDeudores_Click(object sender, EventArgs e)
         {
             Deuda r = new Deuda();
+            r.txtNombreCliente.Text = txtNombreCliente.Text;
+            r.txtCedula.Text = txtCedula.Text;
+            r.txtTotal.Text = txtTotal.Text;
             r.ShowDialog();
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            if (txtCedula != null && txtNombreCliente != null)
+            {
+                btnDeudores.Enabled = true;
+            }
         }
     }
 

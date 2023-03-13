@@ -40,9 +40,7 @@
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtNombreCliente = new System.Windows.Forms.TextBox();
-            this.txtCedula = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.btnEditar = new System.Windows.Forms.Button();
@@ -50,6 +48,8 @@
             this.pbPrenda = new System.Windows.Forms.PictureBox();
             this.cboEstado = new System.Windows.Forms.ComboBox();
             this.ofdExaminar = new System.Windows.Forms.OpenFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCedula = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDeuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPrenda)).BeginInit();
@@ -58,10 +58,10 @@
             // dtgDeuda
             // 
             this.dtgDeuda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgDeuda.Location = new System.Drawing.Point(33, 232);
+            this.dtgDeuda.Location = new System.Drawing.Point(33, 230);
             this.dtgDeuda.Name = "dtgDeuda";
             this.dtgDeuda.RowHeadersWidth = 51;
-            this.dtgDeuda.Size = new System.Drawing.Size(723, 153);
+            this.dtgDeuda.Size = new System.Drawing.Size(723, 155);
             this.dtgDeuda.TabIndex = 0;
             this.dtgDeuda.SelectionChanged += new System.EventHandler(this.dtgDeuda_SelectionChanged);
             // 
@@ -131,7 +131,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.label3.Location = new System.Drawing.Point(75, 148);
+            this.label3.Location = new System.Drawing.Point(75, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 19);
             this.label3.TabIndex = 68;
@@ -181,16 +181,6 @@
             this.txtNombreCliente.Size = new System.Drawing.Size(405, 27);
             this.txtNombreCliente.TabIndex = 77;
             // 
-            // txtCedula
-            // 
-            this.txtCedula.BackColor = System.Drawing.Color.PapayaWhip;
-            this.txtCedula.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCedula.Location = new System.Drawing.Point(148, 98);
-            this.txtCedula.Name = "txtCedula";
-            this.txtCedula.ReadOnly = true;
-            this.txtCedula.Size = new System.Drawing.Size(164, 27);
-            this.txtCedula.TabIndex = 74;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -203,25 +193,13 @@
             this.label11.TabIndex = 76;
             this.label11.Text = "Nombre:";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.label10.Location = new System.Drawing.Point(74, 100);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 19);
-            this.label10.TabIndex = 75;
-            this.label10.Text = "Cédula:";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.label1.Location = new System.Drawing.Point(87, 197);
+            this.label1.Location = new System.Drawing.Point(87, 191);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 19);
             this.label1.TabIndex = 79;
@@ -231,7 +209,7 @@
             // 
             this.txtTotal.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(148, 195);
+            this.txtTotal.Location = new System.Drawing.Point(148, 189);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(164, 27);
             this.txtTotal.TabIndex = 78;
@@ -287,7 +265,7 @@
             this.cboEstado.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
-            this.cboEstado.Location = new System.Drawing.Point(148, 146);
+            this.cboEstado.Location = new System.Drawing.Point(148, 140);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(164, 29);
             this.cboEstado.TabIndex = 100;
@@ -297,6 +275,27 @@
             this.ofdExaminar.FileName = "openFileDialog1";
             this.ofdExaminar.FileOk += new System.ComponentModel.CancelEventHandler(this.ofdExaminar_FileOk);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.NavajoWhite;
+            this.label4.Location = new System.Drawing.Point(75, 101);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 19);
+            this.label4.TabIndex = 102;
+            this.label4.Text = "Cedual:";
+            // 
+            // txtCedula
+            // 
+            this.txtCedula.BackColor = System.Drawing.Color.PapayaWhip;
+            this.txtCedula.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCedula.Location = new System.Drawing.Point(148, 99);
+            this.txtCedula.Name = "txtCedula";
+            this.txtCedula.Size = new System.Drawing.Size(164, 27);
+            this.txtCedula.TabIndex = 101;
+            // 
             // Deuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,15 +303,15 @@
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(796, 475);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.pbPrenda);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtNombreCliente);
-            this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtFecha);
@@ -352,9 +351,7 @@
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.PictureBox pictureBox2;
         public System.Windows.Forms.TextBox txtNombreCliente;
-        public System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Button btnEditar;
@@ -362,5 +359,7 @@
         private System.Windows.Forms.PictureBox pbPrenda;
         private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.OpenFileDialog ofdExaminar;
+        private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.TextBox txtCedula;
     }
 }

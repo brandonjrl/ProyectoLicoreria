@@ -176,6 +176,7 @@
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cliente";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btnDeudores
             // 
@@ -186,7 +187,7 @@
             this.btnDeudores.Name = "btnDeudores";
             this.btnDeudores.Size = new System.Drawing.Size(139, 40);
             this.btnDeudores.TabIndex = 105;
-            this.btnDeudores.Text = "Deudores";
+            this.btnDeudores.Text = "¿Deuda?";
             this.btnDeudores.UseVisualStyleBackColor = false;
             this.btnDeudores.Click += new System.EventHandler(this.btnDeudores_Click);
             // 
