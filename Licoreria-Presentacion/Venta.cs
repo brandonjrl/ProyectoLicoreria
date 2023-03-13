@@ -138,8 +138,19 @@ namespace Licoreria_Presentacion
             optTransferencia.Checked = false;
             optCombinado.Checked = false;
 
+            CNDeuda cNDeuda = new CNDeuda();
+            if (cNDeuda.MostrarDC(txtCedula.Text.ToString()).Rows.Count > 0)
+            {
+                MessageBox.Show("El cliente seleccionado tiene deudas.", "Aviso");
+                r.ShowDialog();
+            }
+            else
+            {
+                r.ShowDialog();
+            }
 
-            r.ShowDialog();
+
+            
         }
 
         private void txtNombreCliente_TextChanged(object sender, EventArgs e)

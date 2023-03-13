@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Licoreria_AccesosdeDatos;
-
+using Licoreria_Entidades;
+using System.Collections;
 
 namespace Licoreria_Negocio
 {
@@ -50,5 +51,6 @@ namespace Licoreria_Negocio
         {
             objetoCD.DeudoresALaFecha(estado);
         }
+
     }
 }

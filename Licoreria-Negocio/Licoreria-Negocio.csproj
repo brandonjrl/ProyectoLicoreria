@@ -54,6 +54,10 @@
       <Project>{f483efda-d867-4ce0-b835-14a78792abe3}</Project>
       <Name>Licoreria-AccesosdeDatos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Licoreria-Entidades\Licoreria-Entidades.csproj">
+      <Project>{d9b70d53-3c13-4d38-9b31-249bbb12df42}</Project>
+      <Name>Licoreria-Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
