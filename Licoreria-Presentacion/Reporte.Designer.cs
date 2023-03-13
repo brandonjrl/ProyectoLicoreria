@@ -116,7 +116,7 @@ namespace Licoreria_Presentacion
             // lb_usuarioActual
             // 
             this.lb_usuarioActual.AutoSize = true;
-            this.lb_usuarioActual.Location = new System.Drawing.Point(41, 44);
+            this.lb_usuarioActual.Location = new System.Drawing.Point(67, 84);
             this.lb_usuarioActual.Name = "lb_usuarioActual";
             this.lb_usuarioActual.Size = new System.Drawing.Size(43, 13);
             this.lb_usuarioActual.TabIndex = 64;
@@ -129,12 +129,12 @@ namespace Licoreria_Presentacion
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada_Documento_Corporativo_Elegante_Gris_Blanco;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(699, 274);
-            this.Controls.Add(this.lb_usuarioActual);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnExistencias);
             this.Controls.Add(this.btnVentas);
             this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.btnDeudor);
+            this.Controls.Add(this.lb_usuarioActual);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
