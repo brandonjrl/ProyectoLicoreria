@@ -41,6 +41,7 @@ namespace Licoreria_Presentacion
             r.lblPago.Text = FormaPago();
             r.lblNombreVendedor.Text = lbnombreUsuario.Text;
             r.lblObs.Text = txtObs.Text;
+            r.lbFecha.Text = lblFecha.Text;
             r.lstProductos.Items.Add("Producto\t\tPrecio\t\tCantidad\t\tTotal");
 
             if (lbnombreUsuario.Text == "Usuario por defecto")

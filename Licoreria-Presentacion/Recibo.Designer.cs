@@ -48,6 +48,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lbFecha = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegresar)).BeginInit();
             this.SuspendLayout();
@@ -243,11 +245,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(182, 28);
+            this.label1.Location = new System.Drawing.Point(227, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 36);
+            this.label1.Size = new System.Drawing.Size(221, 36);
             this.label1.TabIndex = 42;
-            this.label1.Text = "Recibo";
+            this.label1.Text = "Nota de Venta";
             // 
             // pictureBox1
             // 
@@ -273,11 +275,35 @@
             this.btnRegresar.TabStop = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(328, 105);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(45, 16);
+            this.label11.TabIndex = 104;
+            this.label11.Text = "Fecha";
+            // 
+            // lbFecha
+            // 
+            this.lbFecha.AutoSize = true;
+            this.lbFecha.BackColor = System.Drawing.Color.Transparent;
+            this.lbFecha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFecha.Location = new System.Drawing.Point(379, 105);
+            this.lbFecha.Name = "lbFecha";
+            this.lbFecha.Size = new System.Drawing.Size(45, 17);
+            this.lbFecha.TabIndex = 105;
+            this.lbFecha.Text = "Fecha";
+            // 
             // Recibo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 545);
+            this.Controls.Add(this.lbFecha);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblPago);
@@ -334,5 +360,7 @@
         public System.Windows.Forms.Label lblObs;
         public System.Windows.Forms.ListBox lstProductos;
         private System.Windows.Forms.PictureBox btnRegresar;
+        private System.Windows.Forms.Label label11;
+        public System.Windows.Forms.Label lbFecha;
     }
 }
