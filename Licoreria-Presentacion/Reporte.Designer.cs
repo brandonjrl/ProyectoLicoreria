@@ -43,10 +43,10 @@ namespace Licoreria_Presentacion
             this.btnDeudor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeudor.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnDeudor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeudor.Location = new System.Drawing.Point(31, 61);
+            this.btnDeudor.Location = new System.Drawing.Point(44, 61);
             this.btnDeudor.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeudor.Name = "btnDeudor";
-            this.btnDeudor.Size = new System.Drawing.Size(257, 50);
+            this.btnDeudor.Size = new System.Drawing.Size(208, 50);
             this.btnDeudor.TabIndex = 59;
             this.btnDeudor.Text = "Deudor a la Fecha";
             this.btnDeudor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -58,10 +58,10 @@ namespace Licoreria_Presentacion
             this.btnProductos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductos.Location = new System.Drawing.Point(388, 61);
+            this.btnProductos.Location = new System.Drawing.Point(331, 61);
             this.btnProductos.Margin = new System.Windows.Forms.Padding(4);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(422, 50);
+            this.btnProductos.Size = new System.Drawing.Size(349, 50);
             this.btnProductos.TabIndex = 60;
             this.btnProductos.Text = "Productos mas Consumidos";
             this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -73,10 +73,10 @@ namespace Licoreria_Presentacion
             this.btnVentas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentas.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentas.Location = new System.Drawing.Point(31, 161);
+            this.btnVentas.Location = new System.Drawing.Point(44, 161);
             this.btnVentas.Margin = new System.Windows.Forms.Padding(4);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(257, 50);
+            this.btnVentas.Size = new System.Drawing.Size(208, 50);
             this.btnVentas.TabIndex = 61;
             this.btnVentas.Text = "Ventas por Dia";
             this.btnVentas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -88,10 +88,10 @@ namespace Licoreria_Presentacion
             this.btnExistencias.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExistencias.Image = global::Licoreria_Presentacion.Properties.Resources.documentediting_editdocuments_text_documentedi_2820;
             this.btnExistencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExistencias.Location = new System.Drawing.Point(388, 161);
+            this.btnExistencias.Location = new System.Drawing.Point(331, 161);
             this.btnExistencias.Margin = new System.Windows.Forms.Padding(4);
             this.btnExistencias.Name = "btnExistencias";
-            this.btnExistencias.Size = new System.Drawing.Size(422, 50);
+            this.btnExistencias.Size = new System.Drawing.Size(349, 50);
             this.btnExistencias.TabIndex = 62;
             this.btnExistencias.Text = "Numero de existencias por Producto";
             this.btnExistencias.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -99,11 +99,11 @@ namespace Licoreria_Presentacion
             // 
             // Reporte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 11F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Licoreria_Presentacion.Properties.Resources.Portada_Documento_Corporativo_Elegante_Gris_Blanco;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 313);
+            this.ClientSize = new System.Drawing.Size(699, 274);
             this.Controls.Add(this.btnExistencias);
             this.Controls.Add(this.btnVentas);
             this.Controls.Add(this.btnProductos);
