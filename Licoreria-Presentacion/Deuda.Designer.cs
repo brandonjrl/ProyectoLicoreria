@@ -63,6 +63,7 @@
             this.dtgDeuda.RowHeadersWidth = 51;
             this.dtgDeuda.Size = new System.Drawing.Size(723, 153);
             this.dtgDeuda.TabIndex = 0;
+            this.dtgDeuda.SelectionChanged += new System.EventHandler(this.dtgDeuda_SelectionChanged);
             // 
             // lblCliente
             // 
@@ -162,7 +163,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Licoreria_Presentacion.Properties.Resources.Regreso;
             this.pictureBox2.Location = new System.Drawing.Point(0, -2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

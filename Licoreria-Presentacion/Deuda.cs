@@ -158,5 +158,21 @@ namespace Licoreria_Presentacion
         {
 
         }
+
+        private void dtgDeuda_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dtgDeuda.SelectedRows.Count > 0)
+            {
+                txtNombreCliente.Text = dtgDeuda.CurrentRow.Cells["Nombre Cliente"].Value.ToString();
+                //txtCedula.Text = dtgDeuda.CurrentRow.Cells["Cedula"].Value.ToString();
+                cboEstado.Text = dtgDeuda.CurrentRow.Cells["Estado"].Value.ToString();
+                txtPrenda.Text = dtgDeuda.CurrentRow.Cells["Prenda"].Value.ToString();
+                txtFecha.Text = dtgDeuda.CurrentRow.Cells["Fecha"].Value.ToString();
+                idD = dtgDeuda.CurrentRow.Cells["ID"].Value.ToString();                
+            }
+
+            
+
+        }
     }
 }

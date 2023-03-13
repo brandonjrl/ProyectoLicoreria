@@ -104,12 +104,11 @@ namespace Licoreria_Presentacion
                 }
                 txtTotal.Text = total.ToString();
                 txtTotalCompa.Text = totalcompra.ToString();
+                objetoCN.InsertarPV(Int32.Parse(nUDCant.Value.ToString()), float.Parse(txtPrecio.Text), Int32.Parse(txtID.Text));
             }
             optCombinado.Checked = false;
             optEfectivo.Checked = false;
             optTransferencia.Checked = false;
-
-            objetoCN.InsertarPV(Int32.Parse(nUDCant.Value.ToString()), float.Parse(txtPrecio.Text), Int32.Parse(txtID.Text));
 
             groupBox1.Enabled = true;
             groupBox4.Enabled = true;
@@ -124,6 +123,7 @@ namespace Licoreria_Presentacion
             groupBox4.Enabled = false;
             btnAgregar.Enabled = false;
             btnQuitar.Enabled = false;
+            btnDeudar.Enabled = false;
         }
 
         private void btnDeudar_Click(object sender, EventArgs e)
@@ -540,7 +540,15 @@ namespace Licoreria_Presentacion
             txtTransferencia.Text = "";
             txtEfectivo.Enabled = false;
             txtTransferencia.Enabled = false;
+            txtPago.Enabled = false;
+            txtVuelto.Enabled = false;
             btnDeudar.Enabled = true;
+        }
+
+        private void btnDeudores_Click(object sender, EventArgs e)
+        {
+            Deuda r = new Deuda();
+            r.ShowDialog();
         }
     }
 

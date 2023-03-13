@@ -36,6 +36,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnDeudores = new System.Windows.Forms.Button();
             this.lblDireccionCliente = new System.Windows.Forms.Label();
             this.btnBuscarCliente = new System.Windows.Forms.Button();
             this.txtNombreCliente = new System.Windows.Forms.TextBox();
@@ -43,9 +44,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtDireccionCliente = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnRecibo = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbFiar = new System.Windows.Forms.RadioButton();
             this.txtTransferencia = new System.Windows.Forms.MaskedTextBox();
             this.txtEfectivo = new System.Windows.Forms.MaskedTextBox();
             this.optCombinado = new System.Windows.Forms.RadioButton();
@@ -86,7 +89,6 @@
             this.horaFecha = new System.Windows.Forms.Timer(this.components);
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.lbMensaje = new System.Windows.Forms.Label();
-            this.rbFiar = new System.Windows.Forms.RadioButton();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -157,6 +159,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.btnDeudores);
             this.groupBox2.Controls.Add(this.lblDireccionCliente);
             this.groupBox2.Controls.Add(this.btnBuscarCliente);
             this.groupBox2.Controls.Add(this.txtNombreCliente);
@@ -164,6 +167,7 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.txtDireccionCliente);
+            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.NavajoWhite;
             this.groupBox2.Location = new System.Drawing.Point(9, 53);
@@ -172,6 +176,19 @@
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cliente";
+            // 
+            // btnDeudores
+            // 
+            this.btnDeudores.BackColor = System.Drawing.Color.PapayaWhip;
+            this.btnDeudores.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeudores.ForeColor = System.Drawing.Color.Black;
+            this.btnDeudores.Location = new System.Drawing.Point(653, 18);
+            this.btnDeudores.Name = "btnDeudores";
+            this.btnDeudores.Size = new System.Drawing.Size(139, 40);
+            this.btnDeudores.TabIndex = 105;
+            this.btnDeudores.Text = "Deudores";
+            this.btnDeudores.UseVisualStyleBackColor = false;
+            this.btnDeudores.Click += new System.EventHandler(this.btnDeudores_Click);
             // 
             // lblDireccionCliente
             // 
@@ -188,7 +205,7 @@
             this.btnBuscarCliente.BackColor = System.Drawing.Color.Moccasin;
             this.btnBuscarCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
-            this.btnBuscarCliente.Location = new System.Drawing.Point(748, 15);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(573, 15);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(49, 46);
             this.btnBuscarCliente.TabIndex = 46;
@@ -199,10 +216,10 @@
             // 
             this.txtNombreCliente.BackColor = System.Drawing.Color.PapayaWhip;
             this.txtNombreCliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreCliente.Location = new System.Drawing.Point(374, 31);
+            this.txtNombreCliente.Location = new System.Drawing.Point(274, 31);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.ReadOnly = true;
-            this.txtNombreCliente.Size = new System.Drawing.Size(327, 22);
+            this.txtNombreCliente.Size = new System.Drawing.Size(267, 22);
             this.txtNombreCliente.TabIndex = 45;
             this.txtNombreCliente.TextChanged += new System.EventHandler(this.txtNombreCliente_TextChanged);
             this.txtNombreCliente.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtNombreCliente_MouseDown);
@@ -214,7 +231,7 @@
             this.txtCedula.Location = new System.Drawing.Point(69, 31);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.ReadOnly = true;
-            this.txtCedula.Size = new System.Drawing.Size(187, 22);
+            this.txtCedula.Size = new System.Drawing.Size(130, 22);
             this.txtCedula.TabIndex = 43;
             this.txtCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCedula_KeyPress);
             this.txtCedula.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtCedula_MouseDown);
@@ -225,7 +242,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.label11.Location = new System.Drawing.Point(309, 34);
+            this.label11.Location = new System.Drawing.Point(209, 34);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(60, 14);
             this.label11.TabIndex = 44;
@@ -237,7 +254,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.label10.Location = new System.Drawing.Point(9, 31);
+            this.label10.Location = new System.Drawing.Point(9, 35);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(53, 14);
             this.label10.TabIndex = 43;
@@ -249,9 +266,22 @@
             this.txtDireccionCliente.Location = new System.Drawing.Point(69, 31);
             this.txtDireccionCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtDireccionCliente.Name = "txtDireccionCliente";
-            this.txtDireccionCliente.Size = new System.Drawing.Size(187, 20);
+            this.txtDireccionCliente.Size = new System.Drawing.Size(130, 20);
             this.txtDireccionCliente.TabIndex = 103;
             this.txtDireccionCliente.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Goudy Old Style", 49F);
+            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label3.Location = new System.Drawing.Point(613, -3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 74);
+            this.label3.TabIndex = 104;
+            this.label3.Text = "|";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnRecibo
             // 
@@ -295,6 +325,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Forma de Pago";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // rbFiar
+            // 
+            this.rbFiar.AutoSize = true;
+            this.rbFiar.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbFiar.Location = new System.Drawing.Point(238, 49);
+            this.rbFiar.Name = "rbFiar";
+            this.rbFiar.Size = new System.Drawing.Size(54, 19);
+            this.rbFiar.TabIndex = 105;
+            this.rbFiar.TabStop = true;
+            this.rbFiar.Text = "Fiar";
+            this.rbFiar.UseVisualStyleBackColor = true;
+            this.rbFiar.CheckedChanged += new System.EventHandler(this.rbFiar_CheckedChanged);
             // 
             // txtTransferencia
             // 
@@ -760,19 +803,6 @@
             this.lbMensaje.TabIndex = 110;
             this.lbMensaje.Text = ".";
             // 
-            // rbFiar
-            // 
-            this.rbFiar.AutoSize = true;
-            this.rbFiar.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbFiar.Location = new System.Drawing.Point(238, 49);
-            this.rbFiar.Name = "rbFiar";
-            this.rbFiar.Size = new System.Drawing.Size(54, 19);
-            this.rbFiar.TabIndex = 105;
-            this.rbFiar.TabStop = true;
-            this.rbFiar.Text = "Fiar";
-            this.rbFiar.UseVisualStyleBackColor = true;
-            this.rbFiar.CheckedChanged += new System.EventHandler(this.rbFiar_CheckedChanged);
-            // 
             // Venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -886,5 +916,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TotalC;
         private System.Windows.Forms.Label lbMensaje;
         public System.Windows.Forms.RadioButton rbFiar;
+        private System.Windows.Forms.Button btnDeudores;
+        private System.Windows.Forms.Label label3;
     }
 }
