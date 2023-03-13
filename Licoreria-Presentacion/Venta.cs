@@ -485,6 +485,16 @@ namespace Licoreria_Presentacion
         {
 
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
