@@ -480,6 +480,11 @@ namespace Licoreria_Presentacion
         {
 
         }
+
+        private void nUDCant_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
