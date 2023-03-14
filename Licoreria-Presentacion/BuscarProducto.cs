@@ -62,7 +62,7 @@ namespace Licoreria_Presentacion
             padre.txtPrecio.Text = dtgProducto.CurrentRow.Cells["Precio Venta"].Value.ToString();
             padre.txtID.Text = dtgProducto.CurrentRow.Cells["ID"].Value.ToString();
             padre.txtPrecioCompra.Text = dtgProducto.CurrentRow.Cells["Precio Compra"].Value.ToString();
-
+            padre.nUDCant.Maximum = Convert.ToInt32(dtgProducto.CurrentRow.Cells["Stock"].Value.ToString());
             this.Close();
         }
 

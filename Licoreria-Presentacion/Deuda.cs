@@ -25,14 +25,14 @@ namespace Licoreria_Presentacion
             InitializeComponent();
             txtFecha.Text = hoy.ToShortDateString();
             txtFecha.Enabled = false;
-            txtCedula.Enabled = false;
             txtNombreCliente.Enabled = false;
             txtTotal.Enabled = false;
         }
         
         private void Deuda_Load(object sender, EventArgs e)
         {
-            if (txtCedula.Text == "" || txtNombreCliente.Text == "")
+
+            if (txtNombreCliente.Text == "")
             {
                 MostrarDeuda();
             }
@@ -91,6 +91,7 @@ namespace Licoreria_Presentacion
         private void limpiarForm()
         {
             txtPrenda.Clear();
+            //txtCedula.Clear(); ??
             cboEstado.Text = " ";
 
         }
@@ -157,6 +158,45 @@ namespace Licoreria_Presentacion
         private void ofdExaminar_FileOk(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void dtgDeuda_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dtgDeuda.SelectedRows.Count > 0)
+            {
+                txtNombreCliente.Text = dtgDeuda.CurrentRow.Cells["Nombre Cliente"].Value.ToString();
+                cboEstado.Text = dtgDeuda.CurrentRow.Cells["Estado"].Value.ToString();
+                txtPrenda.Text = dtgDeuda.CurrentRow.Cells["Prenda"].Value.ToString();
+                txtFecha.Text = dtgDeuda.CurrentRow.Cells["Fecha"].Value.ToString();
+                idD = dtgDeuda.CurrentRow.Cells["ID"].Value.ToString();
+
+                decimal aux = Convert.ToDecimal(dtgDeuda.CurrentRow.Cells["Deuda"].Value.ToString());
+                txtTotal.Text = (decimal.Round(aux, 2)).ToString();
+            }
+
+            
+
+        }
+
+        private void btnDeudaTotal_Click(object sender, EventArgs e)
+        {
+            decimal deudaT = 0;
+            if (dtgDeuda.SelectedRows.Count > 0)
+            {
+                for (int i = 0; i < dtgDeuda.RowCount - 1; i++)
+                {
+                    if (dtgDeuda.Rows[i].Cells["Nombre Cliente"].Value.ToString().Equals(txtNombreCliente.Text.ToString()))
+                    {
+                        deudaT += Convert.ToDecimal(dtgDeuda.Rows[i].Cells["Deuda"].Value.ToString());
+                    }
+                }
+                deudaT = decimal.Round(deudaT, 2);
+                MessageBox.Show("Su cliente debe: $"+deudaT.ToString(), "Deuda:");
+            }
+            else
+            {
+                MessageBox.Show("Elija una fila que contenga su cliente", "Por favor:");
+            }
         }
     }
 }

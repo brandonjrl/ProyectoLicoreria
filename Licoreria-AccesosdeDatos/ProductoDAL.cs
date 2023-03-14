@@ -77,5 +77,17 @@ namespace Licoreria_AccesosdeDatos
             conexion.CerrarConexion();
             return tabla;
         }
+
+        //Creo nuevo procedure CANTIDAD PRODUCTO 
+        public DataTable CantidadProducto()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "cantidadProducto";
+            comando.CommandType = CommandType.StoredProcedure;
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
     }
 }

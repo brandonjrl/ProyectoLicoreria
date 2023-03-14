@@ -25,5 +25,29 @@ namespace Licoreria_Negocio
         {
             objetoCD.EliminarProductoVenta(Convert.ToInt32(id));
         }
+
+        //LLamo procedure producto mas vendido
+        public DataTable MasVendidos()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.ProductosMasVendidos();
+            return tabla;
+        }
+
+        //Funcion ventas por dia llamando al procedure
+        public DataTable VentasPorDia(DateTime fecha)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.VentasXDia(fecha);
+            return tabla;
+        }
+
+        //Funcion Ganancias por dia
+        public DataTable GanaciasPorDia(DateTime fecha)
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.GanaciasXDia(fecha);
+            return tabla;
+        }
     }
 }

@@ -36,5 +36,13 @@ namespace Licoreria_Negocio
             tabla = objetoCD.BuscarProductos(nombreP);
             return tabla;
         }
+
+        //Llamo procedure CantidadProducto
+        public DataTable CantProducto()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoCD.CantidadProducto();
+            return tabla;
+        }
     }
 }

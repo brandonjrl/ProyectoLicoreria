@@ -216,5 +216,7 @@ namespace Licoreria_Presentacion
             Proveedor p = new Proveedor(this);
             p.ShowDialog();
         }
+
+
     }
 }

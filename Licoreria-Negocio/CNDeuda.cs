@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Licoreria_AccesosdeDatos;
-
+using Licoreria_Entidades;
+using System.Collections;
 
 namespace Licoreria_Negocio
 {
@@ -45,5 +46,11 @@ namespace Licoreria_Negocio
         {
             objetoCD.EliminarDeuda(id);
         }
+        //LLamo al procedure Deudores a la fecha
+        public void DeudoresFecha(string estado)
+        {
+            objetoCD.DeudoresALaFecha(estado);
+        }
+
     }
 }

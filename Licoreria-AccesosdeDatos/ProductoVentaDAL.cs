@@ -61,5 +61,43 @@ namespace Licoreria_AccesosdeDatos
         //    comando.Parameters.Clear();
         //    conexion.CerrarConexion();
         //}
+
+        //Agrego procedure PRODUCTOS MAS VENDIDOS 
+        public DataTable ProductosMasVendidos()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "ProductosMasVendidos";
+            comando.CommandType = CommandType.StoredProcedure;
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
+
+        //Agrago Procedure Ventas por dia
+        public DataTable VentasXDia(DateTime fecha)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "VentasPorDia";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@fecha", fecha);
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
+
+        //Llama procedure ganancias por dia
+        public DataTable GanaciasXDia(DateTime fecha)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "GananciasPorDia";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@fecha", fecha);
+            leer = comando.ExecuteReader();
+            tabla.Load(leer);
+            conexion.CerrarConexion();
+            return tabla;
+        }
     }
 }

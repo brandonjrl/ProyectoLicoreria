@@ -88,8 +88,9 @@ namespace Licoreria_Presentacion
 
         private void btn_Reportes_Click(object sender, EventArgs e)
         {
-            Reporte rp = new Reporte();
-            rp.Show();
+            Reporte r = new Reporte();
+            r.lb_usuarioActual.Text= lblUsuarioVendedor.Text;
+            r.Show();
             this.Hide();
         }
     }
